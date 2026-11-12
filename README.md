@@ -14,8 +14,8 @@ numbers in the writeup come from the result files in `results/`, which are inclu
 ## Setup
 
 ```bash
-git clone --recursive <this repo>
-cd belief_swaps
+git clone --recursive https://github.com/MerijnMoody/BeliefSwaps.git
+cd BeliefSwaps
 pip install -r requirements.txt
 ```
 
