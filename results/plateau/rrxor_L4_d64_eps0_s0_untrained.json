@@ -1,0 +1,3001 @@
+{
+ "arch": "L4_d64",
+ "eps": 0.0,
+ "seed": 0,
+ "n": 200,
+ "K": 4,
+ "untrained": true,
+ "test_kl": 9.549270598201161e-07,
+ "points": {
+  "p0_t4": {
+   "threshold": 8.394159158299597e-08,
+   "separation": 0.999866559286148,
+   "n_clusters": 2,
+   "n_clusters_fine": 2,
+   "n_distinct": {
+    "belief": 12,
+    "future": 12,
+    "phase": 4,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 16,
+    "ph_xor": 8,
+    "bel_last2": 16
+   },
+   "d_quantiles": [
+    1e-12,
+    1e-12,
+    0.008833411342600189,
+    0.013464815626614189,
+    0.016202456555840593
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.8062523846485636,
+     "C_given_V": 0.32605952479202954,
+     "V_given_C_shuffled": 0.9863272115933677
+    },
+    "future": {
+     "V_given_C": 0.8062523846485633,
+     "C_given_V": 0.3260595247920289,
+     "V_given_C_shuffled": 0.9882635676132365
+    },
+    "phase": {
+     "V_given_C": 0.9989443885943833,
+     "C_given_V": 0.9980461356848724,
+     "V_given_C_shuffled": 0.9952655732236145
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9962301828833422
+    },
+    "last2": {
+     "V_given_C": 0.49736765616092,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9933389417490956
+    },
+    "xor2": {
+     "V_given_C": 0.992393847430325,
+     "C_given_V": 0.9924158296788478,
+     "V_given_C_shuffled": 0.996604467675501
+    },
+    "ph_last2": {
+     "V_given_C": 0.7371537019206268,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9841199841533437
+    },
+    "ph_xor": {
+     "V_given_C": 0.9873889540406936,
+     "C_given_V": 0.9641805403520392,
+     "V_given_C_shuffled": 0.9911844947710593
+    },
+    "bel_last2": {
+     "V_given_C": 0.7371537019206268,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9842827528056382
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.8062523846485636,
+     "C_given_V": 0.32605952479202954,
+     "V_given_C_shuffled": 0.9886218817898923
+    },
+    "future": {
+     "V_given_C": 0.8062523846485633,
+     "C_given_V": 0.3260595247920289,
+     "V_given_C_shuffled": 0.9883432314662006
+    },
+    "phase": {
+     "V_given_C": 0.9989443885943833,
+     "C_given_V": 0.9980461356848724,
+     "V_given_C_shuffled": 0.9939992292101288
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.996744974851357
+    },
+    "last2": {
+     "V_given_C": 0.49736765616092,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9949355478159212
+    },
+    "xor2": {
+     "V_given_C": 0.992393847430325,
+     "C_given_V": 0.9924158296788478,
+     "V_given_C_shuffled": 0.9965623847406231
+    },
+    "ph_last2": {
+     "V_given_C": 0.7371537019206268,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.983864659643655
+    },
+    "ph_xor": {
+     "V_given_C": 0.9873889540406936,
+     "C_given_V": 0.9641805403520392,
+     "V_given_C_shuffled": 0.9918049686317396
+    },
+    "bel_last2": {
+     "V_given_C": 0.7371537019206268,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9835714265315549
+    }
+   }
+  },
+  "p0_t6": {
+   "threshold": 8.798523104108766e-08,
+   "separation": 0.9990604550979582,
+   "n_clusters": 2,
+   "n_clusters_fine": 2,
+   "n_distinct": {
+    "belief": 17,
+    "future": 17,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 28,
+    "ph_xor": 14,
+    "bel_last2": 28
+   },
+   "d_quantiles": [
+    1e-12,
+    1e-12,
+    0.00857844874458391,
+    0.03282203196304829,
+    0.05930526650846974
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.8444213438538692,
+     "C_given_V": 0.3805014236702273,
+     "V_given_C_shuffled": 0.9840235335071632
+    },
+    "future": {
+     "V_given_C": 0.844421343853869,
+     "C_given_V": 0.3805014236702273,
+     "V_given_C_shuffled": 0.9842894333361223
+    },
+    "phase": {
+     "V_given_C": 0.9888816551876892,
+     "C_given_V": 0.9692741900570061,
+     "V_given_C_shuffled": 0.9931399988913667
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9970458482150883
+    },
+    "last2": {
+     "V_given_C": 0.498258478603314,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9939701814643978
+    },
+    "xor2": {
+     "V_given_C": 0.9999970630595241,
+     "C_given_V": 0.9999970834389249,
+     "V_given_C_shuffled": 0.9965333222776535
+    },
+    "ph_last2": {
+     "V_given_C": 0.7872139539076684,
+     "C_given_V": -1.2817404583059686e-15,
+     "V_given_C_shuffled": 0.9770279185622891
+    },
+    "ph_xor": {
+     "V_given_C": 0.9881315971785465,
+     "C_given_V": 0.9555648009221264,
+     "V_given_C_shuffled": 0.9878135159959968
+    },
+    "bel_last2": {
+     "V_given_C": 0.7872139539076684,
+     "C_given_V": -1.2817404583059686e-15,
+     "V_given_C_shuffled": 0.9764797224461542
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.8444213438538692,
+     "C_given_V": 0.3805014236702273,
+     "V_given_C_shuffled": 0.9833631279532995
+    },
+    "future": {
+     "V_given_C": 0.844421343853869,
+     "C_given_V": 0.3805014236702273,
+     "V_given_C_shuffled": 0.9858472930990756
+    },
+    "phase": {
+     "V_given_C": 0.9888816551876892,
+     "C_given_V": 0.9692741900570061,
+     "V_given_C_shuffled": 0.9924246548037264
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9946897483091418
+    },
+    "last2": {
+     "V_given_C": 0.498258478603314,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9946765589710448
+    },
+    "xor2": {
+     "V_given_C": 0.9999970630595241,
+     "C_given_V": 0.9999970834389249,
+     "V_given_C_shuffled": 0.9973349561625211
+    },
+    "ph_last2": {
+     "V_given_C": 0.7872139539076684,
+     "C_given_V": -1.2817404583059686e-15,
+     "V_given_C_shuffled": 0.976433021609758
+    },
+    "ph_xor": {
+     "V_given_C": 0.9881315971785465,
+     "C_given_V": 0.9555648009221264,
+     "V_given_C_shuffled": 0.9873156271620208
+    },
+    "bel_last2": {
+     "V_given_C": 0.7872139539076684,
+     "C_given_V": -1.2817404583059686e-15,
+     "V_given_C_shuffled": 0.9764107662382777
+    }
+   }
+  },
+  "p0_t9": {
+   "threshold": 1.362122620541762e-07,
+   "separation": 0.9998415643166064,
+   "n_clusters": 2,
+   "n_clusters_fine": 2,
+   "n_distinct": {
+    "belief": 16,
+    "future": 16,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 27,
+    "ph_xor": 14,
+    "bel_last2": 27
+   },
+   "d_quantiles": [
+    1e-12,
+    1e-12,
+    0.01875484579246302,
+    0.02791747614027109,
+    0.040526244995309955
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.855356122687419,
+     "C_given_V": 0.49392517168276884,
+     "V_given_C_shuffled": 0.9825227702348746
+    },
+    "future": {
+     "V_given_C": 0.8553561226874193,
+     "C_given_V": 0.4939251716827695,
+     "V_given_C_shuffled": 0.9819903043515087
+    },
+    "phase": {
+     "V_given_C": 0.9925628586014634,
+     "C_given_V": 0.9807612763000024,
+     "V_given_C_shuffled": 0.9909891135654039
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9966981482360504
+    },
+    "last2": {
+     "V_given_C": 0.49443755076268947,
+     "C_given_V": -3.209216318230794e-16,
+     "V_given_C_shuffled": 0.9942668541155192
+    },
+    "xor2": {
+     "V_given_C": 0.9763010114889816,
+     "C_given_V": 0.9762598910099798,
+     "V_given_C_shuffled": 0.9956936107415106
+    },
+    "ph_last2": {
+     "V_given_C": 0.776863751866741,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9754004068494679
+    },
+    "ph_xor": {
+     "V_given_C": 0.9831294911588313,
+     "C_given_V": 0.9402562898432861,
+     "V_given_C_shuffled": 0.985029651077847
+    },
+    "bel_last2": {
+     "V_given_C": 0.776863751866741,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9739772580403172
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.855356122687419,
+     "C_given_V": 0.49392517168276884,
+     "V_given_C_shuffled": 0.9831635674787214
+    },
+    "future": {
+     "V_given_C": 0.8553561226874193,
+     "C_given_V": 0.4939251716827695,
+     "V_given_C_shuffled": 0.9846321138716736
+    },
+    "phase": {
+     "V_given_C": 0.9925628586014634,
+     "C_given_V": 0.9807612763000024,
+     "V_given_C_shuffled": 0.9919461835156753
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.995673911435382
+    },
+    "last2": {
+     "V_given_C": 0.49443755076268947,
+     "C_given_V": -3.209216318230794e-16,
+     "V_given_C_shuffled": 0.9950276220947896
+    },
+    "xor2": {
+     "V_given_C": 0.9763010114889816,
+     "C_given_V": 0.9762598910099798,
+     "V_given_C_shuffled": 0.9968247214514682
+    },
+    "ph_last2": {
+     "V_given_C": 0.776863751866741,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9758476971610728
+    },
+    "ph_xor": {
+     "V_given_C": 0.9831294911588313,
+     "C_given_V": 0.9402562898432861,
+     "V_given_C_shuffled": 0.9857127558931202
+    },
+    "bel_last2": {
+     "V_given_C": 0.776863751866741,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9757918242859718
+    }
+   }
+  },
+  "p0_t14": {
+   "threshold": 3.891206380866984e-08,
+   "separation": 0.9990033703396832,
+   "n_clusters": 2,
+   "n_clusters_fine": 2,
+   "n_distinct": {
+    "belief": 14,
+    "future": 14,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 24,
+    "ph_xor": 13,
+    "bel_last2": 24
+   },
+   "d_quantiles": [
+    1e-12,
+    1e-12,
+    0.0018247609383891911,
+    0.009619701498242013,
+    0.015857122669377142
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.8608473346767281,
+     "C_given_V": 0.598304529942887,
+     "V_given_C_shuffled": 0.979593462974429
+    },
+    "future": {
+     "V_given_C": 0.8608473346767281,
+     "C_given_V": 0.5983045299428873,
+     "V_given_C_shuffled": 0.9798115766723686
+    },
+    "phase": {
+     "V_given_C": 0.9917085159723299,
+     "C_given_V": 0.9818554013634089,
+     "V_given_C_shuffled": 0.988309911327297
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9969431289739581
+    },
+    "last2": {
+     "V_given_C": 0.49956326246431826,
+     "C_given_V": 3.209216318230794e-16,
+     "V_given_C_shuffled": 0.9954574093971117
+    },
+    "xor2": {
+     "V_given_C": 0.999991065955608,
+     "C_given_V": 0.9999910814696389,
+     "V_given_C_shuffled": 0.9958934297434974
+    },
+    "ph_last2": {
+     "V_given_C": 0.7568935303984419,
+     "C_given_V": -6.418432636461588e-16,
+     "V_given_C_shuffled": 0.9767440098190465
+    },
+    "ph_xor": {
+     "V_given_C": 0.9870294497615564,
+     "C_given_V": 0.9590865063555062,
+     "V_given_C_shuffled": 0.9844870111114389
+    },
+    "bel_last2": {
+     "V_given_C": 0.7568935303984419,
+     "C_given_V": -6.418432636461588e-16,
+     "V_given_C_shuffled": 0.9760417922259466
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.8608473346767281,
+     "C_given_V": 0.598304529942887,
+     "V_given_C_shuffled": 0.9813118059319439
+    },
+    "future": {
+     "V_given_C": 0.8608473346767281,
+     "C_given_V": 0.5983045299428873,
+     "V_given_C_shuffled": 0.980753469219159
+    },
+    "phase": {
+     "V_given_C": 0.9917085159723299,
+     "C_given_V": 0.9818554013634089,
+     "V_given_C_shuffled": 0.9878519020168696
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9958712679943379
+    },
+    "last2": {
+     "V_given_C": 0.49956326246431826,
+     "C_given_V": 3.209216318230794e-16,
+     "V_given_C_shuffled": 0.9947886334741799
+    },
+    "xor2": {
+     "V_given_C": 0.999991065955608,
+     "C_given_V": 0.9999910814696389,
+     "V_given_C_shuffled": 0.9954306087820745
+    },
+    "ph_last2": {
+     "V_given_C": 0.7568935303984419,
+     "C_given_V": -6.418432636461588e-16,
+     "V_given_C_shuffled": 0.9761247598950434
+    },
+    "ph_xor": {
+     "V_given_C": 0.9870294497615564,
+     "C_given_V": 0.9590865063555062,
+     "V_given_C_shuffled": 0.9861987235650882
+    },
+    "bel_last2": {
+     "V_given_C": 0.7568935303984419,
+     "C_given_V": -6.418432636461588e-16,
+     "V_given_C_shuffled": 0.9760468492081129
+    }
+   }
+  },
+  "p0_t28": {
+   "threshold": 1.3827915269242057e-08,
+   "separation": 0.9994543723082149,
+   "n_clusters": 2,
+   "n_clusters_fine": 2,
+   "n_distinct": {
+    "belief": 6,
+    "future": 6,
+    "phase": 4,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 13,
+    "ph_xor": 7,
+    "bel_last2": 13
+   },
+   "d_quantiles": [
+    1e-12,
+    1e-12,
+    0.00027524040889830785,
+    0.0005414354562258102,
+    0.0008350774004503064
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.855193958996944,
+     "C_given_V": 0.6686056056528202,
+     "V_given_C_shuffled": 0.9914252737822206
+    },
+    "future": {
+     "V_given_C": 0.855193958996944,
+     "C_given_V": 0.6686056056528202,
+     "V_given_C_shuffled": 0.9911723334662095
+    },
+    "phase": {
+     "V_given_C": 0.994245450382729,
+     "C_given_V": 0.9906715815028997,
+     "V_given_C_shuffled": 0.992661249119967
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9966035831050307
+    },
+    "last2": {
+     "V_given_C": 0.4926996486570069,
+     "C_given_V": -3.2043511457649216e-16,
+     "V_given_C_shuffled": 0.9947121043351349
+    },
+    "xor2": {
+     "V_given_C": 0.9709385668786455,
+     "C_given_V": 0.9709301785419195,
+     "V_given_C_shuffled": 0.9970685317532144
+    },
+    "ph_last2": {
+     "V_given_C": 0.7201099101717682,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9871394295692381
+    },
+    "ph_xor": {
+     "V_given_C": 0.9844094550117086,
+     "C_given_V": 0.9592528923491122,
+     "V_given_C_shuffled": 0.9907606873456288
+    },
+    "bel_last2": {
+     "V_given_C": 0.7201099101717682,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.987671741577191
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.855193958996944,
+     "C_given_V": 0.6686056056528202,
+     "V_given_C_shuffled": 0.9919309542395968
+    },
+    "future": {
+     "V_given_C": 0.855193958996944,
+     "C_given_V": 0.6686056056528202,
+     "V_given_C_shuffled": 0.9898688221218735
+    },
+    "phase": {
+     "V_given_C": 0.994245450382729,
+     "C_given_V": 0.9906715815028997,
+     "V_given_C_shuffled": 0.9920285121221271
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9960222652139977
+    },
+    "last2": {
+     "V_given_C": 0.4926996486570069,
+     "C_given_V": -3.2043511457649216e-16,
+     "V_given_C_shuffled": 0.9944245220030876
+    },
+    "xor2": {
+     "V_given_C": 0.9709385668786455,
+     "C_given_V": 0.9709301785419195,
+     "V_given_C_shuffled": 0.9966029763341778
+    },
+    "ph_last2": {
+     "V_given_C": 0.7201099101717682,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9870645348038691
+    },
+    "ph_xor": {
+     "V_given_C": 0.9844094550117086,
+     "C_given_V": 0.9592528923491122,
+     "V_given_C_shuffled": 0.9917075139405243
+    },
+    "bel_last2": {
+     "V_given_C": 0.7201099101717682,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.9870661116930003
+    }
+   }
+  },
+  "p1_t4": {
+   "threshold": 2.2290794873485333e-09,
+   "separation": 0.9565004211835699,
+   "n_clusters": 16,
+   "n_clusters_fine": 16,
+   "n_distinct": {
+    "belief": 12,
+    "future": 12,
+    "phase": 4,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 16,
+    "ph_xor": 8,
+    "bel_last2": 16
+   },
+   "d_quantiles": [
+    1e-12,
+    0.0008356840657796039,
+    0.0020796688576543397,
+    0.0053521081699010545,
+    0.010868182150340666
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 1.8430693189610584e-16,
+     "C_given_V": 0.08570353904510443,
+     "V_given_C_shuffled": 0.8111859656726432
+    },
+    "future": {
+     "V_given_C": 1.8430693189610582e-16,
+     "C_given_V": 0.08570353904510426,
+     "V_given_C_shuffled": 0.814076097206851
+    },
+    "phase": {
+     "V_given_C": 3.463670066590868e-16,
+     "C_given_V": 0.5134895289610468,
+     "V_given_C_shuffled": 0.9029040014773106
+    },
+    "last1": {
+     "V_given_C": 1.28220314909041e-15,
+     "C_given_V": 0.7371537019206267,
+     "V_given_C_shuffled": 0.9437628199769997
+    },
+    "last2": {
+     "V_given_C": 3.222383870525811e-16,
+     "C_given_V": 0.4770605168943829,
+     "V_given_C_shuffled": 0.9097220587640222
+    },
+    "xor2": {
+     "V_given_C": 6.429597678007998e-16,
+     "C_given_V": 0.7379133438808378,
+     "V_given_C_shuffled": 0.9472990465857236
+    },
+    "ph_last2": {
+     "V_given_C": 1.6851117556206452e-16,
+     "C_given_V": -1.6851117556206454e-16,
+     "V_given_C_shuffled": 0.7828359377678185
+    },
+    "ph_xor": {
+     "V_given_C": 2.2571422072341464e-16,
+     "C_given_V": 0.25343128571170315,
+     "V_given_C_shuffled": 0.8562539860678943
+    },
+    "bel_last2": {
+     "V_given_C": 1.6851117556206452e-16,
+     "C_given_V": -1.6851117556206454e-16,
+     "V_given_C_shuffled": 0.7870044679884772
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 1.8430693189610584e-16,
+     "C_given_V": 0.08570353904510443,
+     "V_given_C_shuffled": 0.8099279081360186
+    },
+    "future": {
+     "V_given_C": 1.8430693189610582e-16,
+     "C_given_V": 0.08570353904510426,
+     "V_given_C_shuffled": 0.8101252498396889
+    },
+    "phase": {
+     "V_given_C": 3.463670066590868e-16,
+     "C_given_V": 0.5134895289610468,
+     "V_given_C_shuffled": 0.9005604218919853
+    },
+    "last1": {
+     "V_given_C": 1.28220314909041e-15,
+     "C_given_V": 0.7371537019206267,
+     "V_given_C_shuffled": 0.9351823604651571
+    },
+    "last2": {
+     "V_given_C": 3.222383870525811e-16,
+     "C_given_V": 0.4770605168943829,
+     "V_given_C_shuffled": 0.9052549788244363
+    },
+    "xor2": {
+     "V_given_C": 6.429597678007998e-16,
+     "C_given_V": 0.7379133438808378,
+     "V_given_C_shuffled": 0.9394163745444429
+    },
+    "ph_last2": {
+     "V_given_C": 1.6851117556206452e-16,
+     "C_given_V": -1.6851117556206454e-16,
+     "V_given_C_shuffled": 0.7796363162290217
+    },
+    "ph_xor": {
+     "V_given_C": 2.2571422072341464e-16,
+     "C_given_V": 0.25343128571170315,
+     "V_given_C_shuffled": 0.848242569826668
+    },
+    "bel_last2": {
+     "V_given_C": 1.6851117556206452e-16,
+     "C_given_V": -1.6851117556206454e-16,
+     "V_given_C_shuffled": 0.7791337197627495
+    }
+   }
+  },
+  "p1_t6": {
+   "threshold": 4.873385665082847e-10,
+   "separation": 0.7329352728252442,
+   "n_clusters": 51,
+   "n_clusters_fine": 51,
+   "n_distinct": {
+    "belief": 17,
+    "future": 17,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 28,
+    "ph_xor": 14,
+    "bel_last2": 28
+   },
+   "d_quantiles": [
+    8.678268724800012e-05,
+    0.0016869130930435643,
+    0.007940399519528064,
+    0.02755237703630343,
+    0.08158451479847174
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.26932984676122734,
+     "V_given_C_shuffled": 0.48677449409805396
+    },
+    "future": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.26932984676122734,
+     "V_given_C_shuffled": 0.4902345285092427
+    },
+    "phase": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.49289922786907453,
+     "V_given_C_shuffled": 0.596877682125661
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.8165021117555188,
+     "V_given_C_shuffled": 0.7806227843940334
+    },
+    "last2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.6342780487178289,
+     "V_given_C_shuffled": 0.6710219335230455
+    },
+    "xor2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.8177754017795119,
+     "V_given_C_shuffled": 0.7674818243900726
+    },
+    "ph_last2": {
+     "V_given_C": 2.7273648423950014e-16,
+     "C_given_V": 0.13764134625229044,
+     "V_given_C_shuffled": 0.4376426179096189
+    },
+    "ph_xor": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.31298546930225896,
+     "V_given_C_shuffled": 0.5121430983366443
+    },
+    "bel_last2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.13764134625229044,
+     "V_given_C_shuffled": 0.4369984422403093
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.26932984676122734,
+     "V_given_C_shuffled": 0.48818442161971914
+    },
+    "future": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.26932984676122734,
+     "V_given_C_shuffled": 0.49072561366941864
+    },
+    "phase": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.49289922786907453,
+     "V_given_C_shuffled": 0.597542026016412
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.8165021117555188,
+     "V_given_C_shuffled": 0.7647061132711488
+    },
+    "last2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.6342780487178289,
+     "V_given_C_shuffled": 0.6837385406530762
+    },
+    "xor2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.8177754017795119,
+     "V_given_C_shuffled": 0.771176400079787
+    },
+    "ph_last2": {
+     "V_given_C": 2.7273648423950014e-16,
+     "C_given_V": 0.13764134625229044,
+     "V_given_C_shuffled": 0.4348121627423134
+    },
+    "ph_xor": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.31298546930225896,
+     "V_given_C_shuffled": 0.5123665748687162
+    },
+    "bel_last2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.13764134625229044,
+     "V_given_C_shuffled": 0.4354450718629062
+    }
+   }
+  },
+  "p1_t9": {
+   "threshold": 0.0011700062299565476,
+   "separation": 0.7011735025153409,
+   "n_clusters": 5,
+   "n_clusters_fine": 16,
+   "n_distinct": {
+    "belief": 16,
+    "future": 16,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 27,
+    "ph_xor": 14,
+    "bel_last2": 27
+   },
+   "d_quantiles": [
+    9.249092067285027e-06,
+    0.00016120056650767556,
+    0.016025569123524094,
+    0.02653870428169616,
+    0.043496584557205155
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.7520234629401622,
+     "C_given_V": 0.5586625979285222,
+     "V_given_C_shuffled": 0.9352685508509941
+    },
+    "future": {
+     "V_given_C": 0.7520234629401622,
+     "C_given_V": 0.5586625979285222,
+     "V_given_C_shuffled": 0.9355358705679419
+    },
+    "phase": {
+     "V_given_C": 0.935516112696412,
+     "C_given_V": 0.9151470606599961,
+     "V_given_C_shuffled": 0.9639748687627425
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.4913190638888573,
+     "V_given_C_shuffled": 0.9853817012768691
+    },
+    "last2": {
+     "V_given_C": 0.4377668936671081,
+     "C_given_V": 0.43429884226262166,
+     "V_given_C_shuffled": 0.9757543678553543
+    },
+    "xor2": {
+     "V_given_C": 0.8644008943582815,
+     "C_given_V": 0.9309036375093406,
+     "V_given_C_shuffled": 0.9820116736519178
+    },
+    "ph_last2": {
+     "V_given_C": 0.6796619118204129,
+     "C_given_V": 0.26972923525212766,
+     "V_given_C_shuffled": 0.9156618780120149
+    },
+    "ph_xor": {
+     "V_given_C": 0.8601195099171774,
+     "C_given_V": 0.7480196849540004,
+     "V_given_C_shuffled": 0.9437759774261437
+    },
+    "bel_last2": {
+     "V_given_C": 0.6796619118204129,
+     "C_given_V": 0.26972923525212766,
+     "V_given_C_shuffled": 0.9163297804257806
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.6015789867552576,
+     "C_given_V": 0.6160493187842871,
+     "V_given_C_shuffled": 0.7969885654150914
+    },
+    "future": {
+     "V_given_C": 0.601578986755258,
+     "C_given_V": 0.6160493187842871,
+     "V_given_C_shuffled": 0.7981741785185271
+    },
+    "phase": {
+     "V_given_C": 0.7731235769078334,
+     "C_given_V": 0.8383491060048518,
+     "V_given_C_shuffled": 0.8662944343237626
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.7245653809236428,
+     "V_given_C_shuffled": 0.9384791654392
+    },
+    "last2": {
+     "V_given_C": 0.3615348316826309,
+     "C_given_V": 0.652158876328114,
+     "V_given_C_shuffled": 0.9064490830487376
+    },
+    "xor2": {
+     "V_given_C": 0.7138754354635601,
+     "C_given_V": 0.9210546475279741,
+     "V_given_C_shuffled": 0.939736406523846
+    },
+    "ph_last2": {
+     "V_given_C": 0.5399527766531156,
+     "C_given_V": 0.432127532932207,
+     "V_given_C_shuffled": 0.7418821507880123
+    },
+    "ph_xor": {
+     "V_given_C": 0.6833160863603188,
+     "C_given_V": 0.6911066659593416,
+     "V_given_C_shuffled": 0.8073683753661892
+    },
+    "bel_last2": {
+     "V_given_C": 0.5399527766531156,
+     "C_given_V": 0.432127532932207,
+     "V_given_C_shuffled": 0.7453772990083596
+    }
+   }
+  },
+  "p1_t14": {
+   "threshold": 0.0006979085417025737,
+   "separation": 0.6620643390837998,
+   "n_clusters": 14,
+   "n_clusters_fine": 40,
+   "n_distinct": {
+    "belief": 14,
+    "future": 14,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 24,
+    "ph_xor": 13,
+    "bel_last2": 24
+   },
+   "d_quantiles": [
+    2.5020436956178676e-05,
+    0.0003946519427854213,
+    0.001999970885077608,
+    0.006407959267403878,
+    0.01682883557344575
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.7314985054995372,
+     "C_given_V": 0.7691027541892967,
+     "V_given_C_shuffled": 0.8392047706709326
+    },
+    "future": {
+     "V_given_C": 0.7314985054995371,
+     "C_given_V": 0.7691027541892972,
+     "V_given_C_shuffled": 0.8378008015861461
+    },
+    "phase": {
+     "V_given_C": 0.8330011059159397,
+     "C_given_V": 0.8911332312691421,
+     "V_given_C_shuffled": 0.8829592986660648
+    },
+    "last1": {
+     "V_given_C": 0.23115737507625425,
+     "C_given_V": 0.7709638192793027,
+     "V_given_C_shuffled": 0.949730858329409
+    },
+    "last2": {
+     "V_given_C": 0.5512988313017916,
+     "C_given_V": 0.7328995271899001,
+     "V_given_C_shuffled": 0.9177031846049567
+    },
+    "xor2": {
+     "V_given_C": 0.8904466571384799,
+     "C_given_V": 0.9674210214874971,
+     "V_given_C_shuffled": 0.9404042149728348
+    },
+    "ph_last2": {
+     "V_given_C": 0.6528253798385454,
+     "C_given_V": 0.5745798143992464,
+     "V_given_C_shuffled": 0.8012246437572793
+    },
+    "ph_xor": {
+     "V_given_C": 0.8026803842268482,
+     "C_given_V": 0.8145849139154407,
+     "V_given_C_shuffled": 0.8473901658067259
+    },
+    "bel_last2": {
+     "V_given_C": 0.6528253798385454,
+     "C_given_V": 0.5745798143992461,
+     "V_given_C_shuffled": 0.7978790601182629
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.5615477340300338,
+     "C_given_V": 0.7457619585273227,
+     "V_given_C_shuffled": 0.6312479514150848
+    },
+    "future": {
+     "V_given_C": 0.5615477340300339,
+     "C_given_V": 0.7457619585273225,
+     "V_given_C_shuffled": 0.6330933400845975
+    },
+    "phase": {
+     "V_given_C": 0.6584154759996776,
+     "C_given_V": 0.8498497381359102,
+     "V_given_C_shuffled": 0.6958257396592485
+    },
+    "last1": {
+     "V_given_C": 0.010018073816923533,
+     "C_given_V": 0.8011433695121172,
+     "V_given_C_shuffled": 0.8287176707322611
+    },
+    "last2": {
+     "V_given_C": 0.37853480135223744,
+     "C_given_V": 0.7505517624161372,
+     "V_given_C_shuffled": 0.7519825163451627
+    },
+    "xor2": {
+     "V_given_C": 0.7577246926410147,
+     "C_given_V": 0.951418921421434,
+     "V_given_C_shuffled": 0.8237351182808098
+    },
+    "ph_last2": {
+     "V_given_C": 0.4553827211846351,
+     "C_given_V": 0.5500049777451995,
+     "V_given_C_shuffled": 0.5584322726694844
+    },
+    "ph_xor": {
+     "V_given_C": 0.5938433064491632,
+     "C_given_V": 0.7426556776782623,
+     "V_given_C_shuffled": 0.633038652975398
+    },
+    "bel_last2": {
+     "V_given_C": 0.4553827211846351,
+     "C_given_V": 0.5500049777451995,
+     "V_given_C_shuffled": 0.5595084328305883
+    }
+   }
+  },
+  "p1_t28": {
+   "threshold": 7.353174439448563e-05,
+   "separation": 0.6172697996749558,
+   "n_clusters": 20,
+   "n_clusters_fine": 52,
+   "n_distinct": {
+    "belief": 6,
+    "future": 6,
+    "phase": 4,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 13,
+    "ph_xor": 7,
+    "bel_last2": 13
+   },
+   "d_quantiles": [
+    4.579502891325471e-06,
+    8.660364971782499e-05,
+    0.00025835816979925775,
+    0.000662782185758544,
+    0.0019727867399498256
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.7512879957063537,
+     "C_given_V": 0.8538335059152801,
+     "V_given_C_shuffled": 0.8570644326214815
+    },
+    "future": {
+     "V_given_C": 0.7512879957063541,
+     "C_given_V": 0.8538335059152803,
+     "V_given_C_shuffled": 0.8582088347857945
+    },
+    "phase": {
+     "V_given_C": 0.8941761981281476,
+     "C_given_V": 0.9559472882339075,
+     "V_given_C_shuffled": 0.8943413927503739
+    },
+    "last1": {
+     "V_given_C": 0.04693393309974114,
+     "C_given_V": 0.7552539946382757,
+     "V_given_C_shuffled": 0.919129109106104
+    },
+    "last2": {
+     "V_given_C": 0.4745969215798022,
+     "C_given_V": 0.7340377153218414,
+     "V_given_C_shuffled": 0.8882092310958677
+    },
+    "xor2": {
+     "V_given_C": 0.9252644276076998,
+     "C_given_V": 0.9808024720988173,
+     "V_given_C_shuffled": 0.9182692510985012
+    },
+    "ph_last2": {
+     "V_given_C": 0.6291322550996306,
+     "C_given_V": 0.6597296192593256,
+     "V_given_C_shuffled": 0.7888672812092173
+    },
+    "ph_xor": {
+     "V_given_C": 0.8562132972647902,
+     "C_given_V": 0.9034956656127412,
+     "V_given_C_shuffled": 0.8507916556336054
+    },
+    "bel_last2": {
+     "V_given_C": 0.6291322550996306,
+     "C_given_V": 0.6597296192593253,
+     "V_given_C_shuffled": 0.7859733409100247
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.5659561413982145,
+     "C_given_V": 0.8163559663063711,
+     "V_given_C_shuffled": 0.6375455309743936
+    },
+    "future": {
+     "V_given_C": 0.5659561413982145,
+     "C_given_V": 0.8163559663063709,
+     "V_given_C_shuffled": 0.6398734899381978
+    },
+    "phase": {
+     "V_given_C": 0.6791170225808524,
+     "C_given_V": 0.903832552057439,
+     "V_given_C_shuffled": 0.7050140106417256
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.815122214732523,
+     "V_given_C_shuffled": 0.7636798949301631
+    },
+    "last2": {
+     "V_given_C": 0.36526943727904504,
+     "C_given_V": 0.7686822404779113,
+     "V_given_C_shuffled": 0.6771129346399634
+    },
+    "xor2": {
+     "V_given_C": 0.7198182197267559,
+     "C_given_V": 0.9481856615360975,
+     "V_given_C_shuffled": 0.7598852127114688
+    },
+    "ph_last2": {
+     "V_given_C": 0.4407917967372634,
+     "C_given_V": 0.630622241087324,
+     "V_given_C_shuffled": 0.5319598545161586
+    },
+    "ph_xor": {
+     "V_given_C": 0.6025741435724141,
+     "C_given_V": 0.8079667913362494,
+     "V_given_C_shuffled": 0.6182503485778008
+    },
+    "bel_last2": {
+     "V_given_C": 0.4407917967372634,
+     "C_given_V": 0.630622241087324,
+     "V_given_C_shuffled": 0.532501574201346
+    }
+   }
+  },
+  "p2_t4": {
+   "threshold": 5.469232996014228e-09,
+   "separation": 0.9210609847360541,
+   "n_clusters": 16,
+   "n_clusters_fine": 16,
+   "n_distinct": {
+    "belief": 12,
+    "future": 12,
+    "phase": 4,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 16,
+    "ph_xor": 8,
+    "bel_last2": 16
+   },
+   "d_quantiles": [
+    1e-12,
+    0.0002292967872412178,
+    0.001927594200917585,
+    0.0061805129467643796,
+    0.014330266580030442
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 1.8430693189610584e-16,
+     "C_given_V": 0.08570353904510443,
+     "V_given_C_shuffled": 0.8111859656726434
+    },
+    "future": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.08570353904510426,
+     "V_given_C_shuffled": 0.8140760972068511
+    },
+    "phase": {
+     "V_given_C": 3.463670066590868e-16,
+     "C_given_V": 0.5134895289610468,
+     "V_given_C_shuffled": 0.9029040014773106
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.7371537019206267,
+     "V_given_C_shuffled": 0.9437628199769996
+    },
+    "last2": {
+     "V_given_C": 3.222383870525811e-16,
+     "C_given_V": 0.4770605168943829,
+     "V_given_C_shuffled": 0.9097220587640225
+    },
+    "xor2": {
+     "V_given_C": 6.429597678007998e-16,
+     "C_given_V": 0.7379133438808378,
+     "V_given_C_shuffled": 0.9472990465857238
+    },
+    "ph_last2": {
+     "V_given_C": 1.6851117556206452e-16,
+     "C_given_V": -1.6851117556206454e-16,
+     "V_given_C_shuffled": 0.7828359377678187
+    },
+    "ph_xor": {
+     "V_given_C": 2.2571422072341464e-16,
+     "C_given_V": 0.25343128571170315,
+     "V_given_C_shuffled": 0.8562539860678946
+    },
+    "bel_last2": {
+     "V_given_C": 1.6851117556206452e-16,
+     "C_given_V": -1.6851117556206454e-16,
+     "V_given_C_shuffled": 0.7870044679884772
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 1.8430693189610584e-16,
+     "C_given_V": 0.08570353904510443,
+     "V_given_C_shuffled": 0.8099279081360189
+    },
+    "future": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.08570353904510426,
+     "V_given_C_shuffled": 0.8101252498396889
+    },
+    "phase": {
+     "V_given_C": 3.463670066590868e-16,
+     "C_given_V": 0.5134895289610468,
+     "V_given_C_shuffled": 0.9005604218919853
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.7371537019206267,
+     "V_given_C_shuffled": 0.9351823604651572
+    },
+    "last2": {
+     "V_given_C": 3.222383870525811e-16,
+     "C_given_V": 0.4770605168943829,
+     "V_given_C_shuffled": 0.9052549788244363
+    },
+    "xor2": {
+     "V_given_C": 6.429597678007998e-16,
+     "C_given_V": 0.7379133438808378,
+     "V_given_C_shuffled": 0.9394163745444427
+    },
+    "ph_last2": {
+     "V_given_C": 1.6851117556206452e-16,
+     "C_given_V": -1.6851117556206454e-16,
+     "V_given_C_shuffled": 0.7796363162290219
+    },
+    "ph_xor": {
+     "V_given_C": 2.2571422072341464e-16,
+     "C_given_V": 0.25343128571170315,
+     "V_given_C_shuffled": 0.848242569826668
+    },
+    "bel_last2": {
+     "V_given_C": 1.6851117556206452e-16,
+     "C_given_V": -1.6851117556206454e-16,
+     "V_given_C_shuffled": 0.7791337197627495
+    }
+   }
+  },
+  "p2_t6": {
+   "threshold": 6.120277950021881e-10,
+   "separation": 0.7070509478503777,
+   "n_clusters": 51,
+   "n_clusters_fine": 51,
+   "n_distinct": {
+    "belief": 17,
+    "future": 17,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 28,
+    "ph_xor": 14,
+    "bel_last2": 28
+   },
+   "d_quantiles": [
+    4.5965366124444406e-05,
+    0.0016010026460889744,
+    0.008665964114408802,
+    0.029431634971989327,
+    0.08964197047569533
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": -1.6094585657709204e-16,
+     "C_given_V": 0.2693298467612274,
+     "V_given_C_shuffled": 0.48677449409805384
+    },
+    "future": {
+     "V_given_C": -1.6094585657709204e-16,
+     "C_given_V": 0.2693298467612274,
+     "V_given_C_shuffled": 0.4902345285092426
+    },
+    "phase": {
+     "V_given_C": -2.3190328264372536e-16,
+     "C_given_V": 0.4928992278690746,
+     "V_given_C_shuffled": 0.5968776821256608
+    },
+    "last1": {
+     "V_given_C": -6.408702291529843e-16,
+     "C_given_V": 0.8165021117555189,
+     "V_given_C_shuffled": 0.780622784394033
+    },
+    "last2": {
+     "V_given_C": -3.215512037930611e-16,
+     "C_given_V": 0.6342780487178289,
+     "V_given_C_shuffled": 0.6710219335230453
+    },
+    "xor2": {
+     "V_given_C": -6.453482945592106e-16,
+     "C_given_V": 0.8177754017795119,
+     "V_given_C_shuffled": 0.7674818243900721
+    },
+    "ph_last2": {
+     "V_given_C": -1.3636824211975007e-16,
+     "C_given_V": 0.13764134625229055,
+     "V_given_C_shuffled": 0.4376426179096187
+    },
+    "ph_xor": {
+     "V_given_C": -1.7117299334105052e-16,
+     "C_given_V": 0.312985469302259,
+     "V_given_C_shuffled": 0.5121430983366441
+    },
+    "bel_last2": {
+     "V_given_C": -1.3636824211975007e-16,
+     "C_given_V": 0.13764134625229055,
+     "V_given_C_shuffled": 0.4369984422403092
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": -1.6094585657709204e-16,
+     "C_given_V": 0.2693298467612274,
+     "V_given_C_shuffled": 0.4881844216197191
+    },
+    "future": {
+     "V_given_C": -1.6094585657709204e-16,
+     "C_given_V": 0.2693298467612274,
+     "V_given_C_shuffled": 0.49072561366941847
+    },
+    "phase": {
+     "V_given_C": -2.3190328264372536e-16,
+     "C_given_V": 0.4928992278690746,
+     "V_given_C_shuffled": 0.5975420260164119
+    },
+    "last1": {
+     "V_given_C": -6.408702291529843e-16,
+     "C_given_V": 0.8165021117555189,
+     "V_given_C_shuffled": 0.7647061132711479
+    },
+    "last2": {
+     "V_given_C": -3.215512037930611e-16,
+     "C_given_V": 0.6342780487178289,
+     "V_given_C_shuffled": 0.6837385406530757
+    },
+    "xor2": {
+     "V_given_C": -6.453482945592106e-16,
+     "C_given_V": 0.8177754017795119,
+     "V_given_C_shuffled": 0.7711764000797863
+    },
+    "ph_last2": {
+     "V_given_C": -1.3636824211975007e-16,
+     "C_given_V": 0.13764134625229055,
+     "V_given_C_shuffled": 0.4348121627423132
+    },
+    "ph_xor": {
+     "V_given_C": -1.7117299334105052e-16,
+     "C_given_V": 0.312985469302259,
+     "V_given_C_shuffled": 0.5123665748687161
+    },
+    "bel_last2": {
+     "V_given_C": -1.3636824211975007e-16,
+     "C_given_V": 0.13764134625229055,
+     "V_given_C_shuffled": 0.4354450718629061
+    }
+   }
+  },
+  "p2_t9": {
+   "threshold": 0.0011243129847227056,
+   "separation": 0.6769647255018691,
+   "n_clusters": 7,
+   "n_clusters_fine": 17,
+   "n_distinct": {
+    "belief": 16,
+    "future": 16,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 27,
+    "ph_xor": 14,
+    "bel_last2": 27
+   },
+   "d_quantiles": [
+    9.959168850938145e-06,
+    0.00031225158958778136,
+    0.009461686260015353,
+    0.02574155986089003,
+    0.04935832372483897
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.7193755761968428,
+     "C_given_V": 0.5976292533998289,
+     "V_given_C_shuffled": 0.9036623960424118
+    },
+    "future": {
+     "V_given_C": 0.7193755761968428,
+     "C_given_V": 0.5976292533998289,
+     "V_given_C_shuffled": 0.904651031801051
+    },
+    "phase": {
+     "V_given_C": 0.879667941948419,
+     "C_given_V": 0.8724331551295916,
+     "V_given_C_shuffled": 0.9447257752328008
+    },
+    "last1": {
+     "V_given_C": -3.209216318230794e-16,
+     "C_given_V": 0.5901865094509446,
+     "V_given_C_shuffled": 0.9773897166118383
+    },
+    "last2": {
+     "V_given_C": 0.42540513758716625,
+     "C_given_V": 0.5342282114263099,
+     "V_given_C_shuffled": 0.9642356229913179
+    },
+    "xor2": {
+     "V_given_C": 0.8399917552344215,
+     "C_given_V": 0.9343126850441503,
+     "V_given_C_shuffled": 0.9745973250208635
+    },
+    "ph_last2": {
+     "V_given_C": 0.6462619457669311,
+     "C_given_V": 0.3503223794517259,
+     "V_given_C_shuffled": 0.8740416461498479
+    },
+    "ph_xor": {
+     "V_given_C": 0.8178514911661694,
+     "C_given_V": 0.7356520916031073,
+     "V_given_C_shuffled": 0.9176428241330394
+    },
+    "bel_last2": {
+     "V_given_C": 0.6462619457669312,
+     "C_given_V": 0.3503223794517259,
+     "V_given_C_shuffled": 0.8753714477938128
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.5625497451614143,
+     "C_given_V": 0.5975544896827671,
+     "V_given_C_shuffled": 0.7809561167030975
+    },
+    "future": {
+     "V_given_C": 0.5625497451614141,
+     "C_given_V": 0.5975544896827671,
+     "V_given_C_shuffled": 0.7816867330261266
+    },
+    "phase": {
+     "V_given_C": 0.7291736597356807,
+     "C_given_V": 0.8157850589825753,
+     "V_given_C_shuffled": 0.857749099596261
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.7370557177955341,
+     "V_given_C_shuffled": 0.9362791449644449
+    },
+    "last2": {
+     "V_given_C": 0.40542168374202076,
+     "C_given_V": 0.6907583448520561,
+     "V_given_C_shuffled": 0.9008285458924992
+    },
+    "xor2": {
+     "V_given_C": 0.8005330487264634,
+     "C_given_V": 0.9474603011386854,
+     "V_given_C_shuffled": 0.9347198131836523
+    },
+    "ph_last2": {
+     "V_given_C": 0.49798866545047715,
+     "C_given_V": 0.408428656814208,
+     "V_given_C_shuffled": 0.7204018913384309
+    },
+    "ph_xor": {
+     "V_given_C": 0.6302100491762601,
+     "C_given_V": 0.6556636720352851,
+     "V_given_C_shuffled": 0.7908392245472509
+    },
+    "bel_last2": {
+     "V_given_C": 0.49798866545047715,
+     "C_given_V": 0.40842865681420837,
+     "V_given_C_shuffled": 0.723466475014189
+    }
+   }
+  },
+  "p2_t14": {
+   "threshold": 0.0007125057675107505,
+   "separation": 0.6531975861290975,
+   "n_clusters": 13,
+   "n_clusters_fine": 40,
+   "n_distinct": {
+    "belief": 14,
+    "future": 14,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 24,
+    "ph_xor": 13,
+    "bel_last2": 24
+   },
+   "d_quantiles": [
+    2.4461972788050886e-05,
+    0.00040963451243894536,
+    0.0019809038132004527,
+    0.006454617494745855,
+    0.018299993586501053
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.7774888913276572,
+     "C_given_V": 0.7966710909468315,
+     "V_given_C_shuffled": 0.8535573575211286
+    },
+    "future": {
+     "V_given_C": 0.7774888913276571,
+     "C_given_V": 0.7966710909468319,
+     "V_given_C_shuffled": 0.8519857933151669
+    },
+    "phase": {
+     "V_given_C": 0.8702723575073369,
+     "C_given_V": 0.9101351919169121,
+     "V_given_C_shuffled": 0.8916650304916913
+    },
+    "last1": {
+     "V_given_C": 0.4695515537499055,
+     "C_given_V": 0.8320866564625544,
+     "V_given_C_shuffled": 0.9531729327473881
+    },
+    "last2": {
+     "V_given_C": 0.6735644656875441,
+     "C_given_V": 0.7935141614593237,
+     "V_given_C_shuffled": 0.9266353996770522
+    },
+    "xor2": {
+     "V_given_C": 0.926259203950596,
+     "C_given_V": 0.9766979012443741,
+     "V_given_C_shuffled": 0.9460447094808915
+    },
+    "ph_last2": {
+     "V_given_C": 0.7043737330873698,
+     "C_given_V": 0.6150639986798614,
+     "V_given_C_shuffled": 0.8121827346388067
+    },
+    "ph_xor": {
+     "V_given_C": 0.8309773815881528,
+     "C_given_V": 0.8312300899589845,
+     "V_given_C_shuffled": 0.8551459233167965
+    },
+    "bel_last2": {
+     "V_given_C": 0.7043737330873698,
+     "C_given_V": 0.6150639986798611,
+     "V_given_C_shuffled": 0.8155741291015933
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.5793772347587224,
+     "C_given_V": 0.7556552683099581,
+     "V_given_C_shuffled": 0.631916838575635
+    },
+    "future": {
+     "V_given_C": 0.5793772347587224,
+     "C_given_V": 0.7556552683099579,
+     "V_given_C_shuffled": 0.6347118717426982
+    },
+    "phase": {
+     "V_given_C": 0.6804357296262827,
+     "C_given_V": 0.8592727782075908,
+     "V_given_C_shuffled": 0.6965929106519344
+    },
+    "last1": {
+     "V_given_C": 0.09403787518051157,
+     "C_given_V": 0.8176881734647432,
+     "V_given_C_shuffled": 0.8318539730772982
+    },
+    "last2": {
+     "V_given_C": 0.4161180226616095,
+     "C_given_V": 0.7652094103906945,
+     "V_given_C_shuffled": 0.75995515168288
+    },
+    "xor2": {
+     "V_given_C": 0.7700871526152459,
+     "C_given_V": 0.9538136938962517,
+     "V_given_C_shuffled": 0.8277762737105891
+    },
+    "ph_last2": {
+     "V_given_C": 0.47356369174965546,
+     "C_given_V": 0.564233220584035,
+     "V_given_C_shuffled": 0.5646314146340135
+    },
+    "ph_xor": {
+     "V_given_C": 0.6008939524696694,
+     "C_given_V": 0.7466614533287842,
+     "V_given_C_shuffled": 0.6332023884678403
+    },
+    "bel_last2": {
+     "V_given_C": 0.47356369174965574,
+     "C_given_V": 0.564233220584035,
+     "V_given_C_shuffled": 0.5650502554327784
+    }
+   }
+  },
+  "p2_t28": {
+   "threshold": 0.00014168969243658687,
+   "separation": 0.6341256273930048,
+   "n_clusters": 14,
+   "n_clusters_fine": 40,
+   "n_distinct": {
+    "belief": 6,
+    "future": 6,
+    "phase": 4,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 13,
+    "ph_xor": 7,
+    "bel_last2": 13
+   },
+   "d_quantiles": [
+    7.107171783496107e-06,
+    8.281829663252237e-05,
+    0.0003110986796138205,
+    0.0009514876846315358,
+    0.0027141911786917263
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.847867815129476,
+     "C_given_V": 0.9008708546796094,
+     "V_given_C_shuffled": 0.9015305036314989
+    },
+    "future": {
+     "V_given_C": 0.847867815129476,
+     "C_given_V": 0.900870854679609,
+     "V_given_C_shuffled": 0.9006265364647398
+    },
+    "phase": {
+     "V_given_C": 0.9349786924056752,
+     "C_given_V": 0.9699894356191885,
+     "V_given_C_shuffled": 0.9236580696330355
+    },
+    "last1": {
+     "V_given_C": 0.43179294223955866,
+     "C_given_V": 0.838218668559498,
+     "V_given_C_shuffled": 0.9461992971029828
+    },
+    "last2": {
+     "V_given_C": 0.6614917657328484,
+     "C_given_V": 0.8100121378799441,
+     "V_given_C_shuffled": 0.9257969547371977
+    },
+    "xor2": {
+     "V_given_C": 0.9505718853316131,
+     "C_given_V": 0.9859226417064237,
+     "V_given_C_shuffled": 0.9439096307073008
+    },
+    "ph_last2": {
+     "V_given_C": 0.7363273388943389,
+     "C_given_V": 0.7317749331227573,
+     "V_given_C_shuffled": 0.8430549062071083
+    },
+    "ph_xor": {
+     "V_given_C": 0.9054704425016826,
+     "C_given_V": 0.9296563504925706,
+     "V_given_C_shuffled": 0.8945372403483628
+    },
+    "bel_last2": {
+     "V_given_C": 0.7363273388943389,
+     "C_given_V": 0.7317749331227573,
+     "V_given_C_shuffled": 0.8370765005150812
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.6521665074782896,
+     "C_given_V": 0.8424563896243228,
+     "V_given_C_shuffled": 0.7115695222687034
+    },
+    "future": {
+     "V_given_C": 0.6521665074782902,
+     "C_given_V": 0.8424563896243222,
+     "V_given_C_shuffled": 0.7182271817099206
+    },
+    "phase": {
+     "V_given_C": 0.7915890812206349,
+     "C_given_V": 0.9331366596571335,
+     "V_given_C_shuffled": 0.7777298280291609
+    },
+    "last1": {
+     "V_given_C": 0.07002020490759553,
+     "C_given_V": 0.8159463511693085,
+     "V_given_C_shuffled": 0.8221448659470308
+    },
+    "last2": {
+     "V_given_C": 0.4271290728359652,
+     "C_given_V": 0.7765077138001395,
+     "V_given_C_shuffled": 0.7526536233701043
+    },
+    "xor2": {
+     "V_given_C": 0.7898992711879395,
+     "C_given_V": 0.9584066582132815,
+     "V_given_C_shuffled": 0.8211165457165659
+    },
+    "ph_last2": {
+     "V_given_C": 0.5282369701643287,
+     "C_given_V": 0.666414395384139,
+     "V_given_C_shuffled": 0.6045875696871332
+    },
+    "ph_xor": {
+     "V_given_C": 0.7091876167537078,
+     "C_given_V": 0.8495752480620457,
+     "V_given_C_shuffled": 0.6950338083054015
+    },
+    "bel_last2": {
+     "V_given_C": 0.5282369701643287,
+     "C_given_V": 0.666414395384139,
+     "V_given_C_shuffled": 0.6028021878014883
+    }
+   }
+  },
+  "p3_t4": {
+   "threshold": 2.19112022488638e-09,
+   "separation": 0.9395166380468819,
+   "n_clusters": 16,
+   "n_clusters_fine": 16,
+   "n_distinct": {
+    "belief": 12,
+    "future": 12,
+    "phase": 4,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 16,
+    "ph_xor": 8,
+    "bel_last2": 16
+   },
+   "d_quantiles": [
+    1e-12,
+    0.00040040435321483567,
+    0.0017803725516025702,
+    0.005948059372057711,
+    0.013613493887522483
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.08570353904510458,
+     "V_given_C_shuffled": 0.8111859656726432
+    },
+    "future": {
+     "V_given_C": -1.8430693189610582e-16,
+     "C_given_V": 0.08570353904510442,
+     "V_given_C_shuffled": 0.814076097206851
+    },
+    "phase": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.5134895289610469,
+     "V_given_C_shuffled": 0.9029040014773103
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.7371537019206268,
+     "V_given_C_shuffled": 0.9437628199769991
+    },
+    "last2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.477060516894383,
+     "V_given_C_shuffled": 0.909722058764022
+    },
+    "xor2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.737913343880838,
+     "V_given_C_shuffled": 0.9472990465857233
+    },
+    "ph_last2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.7828359377678185
+    },
+    "ph_xor": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.25343128571170326,
+     "V_given_C_shuffled": 0.8562539860678943
+    },
+    "bel_last2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.7870044679884772
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.08570353904510458,
+     "V_given_C_shuffled": 0.8099279081360187
+    },
+    "future": {
+     "V_given_C": -1.8430693189610582e-16,
+     "C_given_V": 0.08570353904510442,
+     "V_given_C_shuffled": 0.8101252498396889
+    },
+    "phase": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.5134895289610469,
+     "V_given_C_shuffled": 0.9005604218919848
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.7371537019206268,
+     "V_given_C_shuffled": 0.9351823604651567
+    },
+    "last2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.477060516894383,
+     "V_given_C_shuffled": 0.9052549788244361
+    },
+    "xor2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.737913343880838,
+     "V_given_C_shuffled": 0.9394163745444422
+    },
+    "ph_last2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.7796363162290217
+    },
+    "ph_xor": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.25343128571170326,
+     "V_given_C_shuffled": 0.8482425698266677
+    },
+    "bel_last2": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.0,
+     "V_given_C_shuffled": 0.7791337197627493
+    }
+   }
+  },
+  "p3_t6": {
+   "threshold": 9.928509143352386e-10,
+   "separation": 0.7229644396687536,
+   "n_clusters": 51,
+   "n_clusters_fine": 51,
+   "n_distinct": {
+    "belief": 17,
+    "future": 17,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 28,
+    "ph_xor": 14,
+    "bel_last2": 28
+   },
+   "d_quantiles": [
+    7.840659704012001e-05,
+    0.0014860336419840613,
+    0.008030407760920087,
+    0.0273898141884918,
+    0.0839547337329665
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 1.6094585657709204e-16,
+     "C_given_V": 0.26932984676122723,
+     "V_given_C_shuffled": 0.4867744940980542
+    },
+    "future": {
+     "V_given_C": 1.6094585657709204e-16,
+     "C_given_V": 0.26932984676122723,
+     "V_given_C_shuffled": 0.4902345285092429
+    },
+    "phase": {
+     "V_given_C": 2.3190328264372536e-16,
+     "C_given_V": 0.4928992278690745,
+     "V_given_C_shuffled": 0.5968776821256612
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.8165021117555188,
+     "V_given_C_shuffled": 0.7806227843940343
+    },
+    "last2": {
+     "V_given_C": 3.215512037930611e-16,
+     "C_given_V": 0.6342780487178289,
+     "V_given_C_shuffled": 0.671021933523046
+    },
+    "xor2": {
+     "V_given_C": 6.453482945592106e-16,
+     "C_given_V": 0.8177754017795119,
+     "V_given_C_shuffled": 0.7674818243900731
+    },
+    "ph_last2": {
+     "V_given_C": 1.3636824211975007e-16,
+     "C_given_V": 0.13764134625229033,
+     "V_given_C_shuffled": 0.43764261790961906
+    },
+    "ph_xor": {
+     "V_given_C": 5.135189800231515e-16,
+     "C_given_V": 0.31298546930225885,
+     "V_given_C_shuffled": 0.5121430983366444
+    },
+    "bel_last2": {
+     "V_given_C": 1.3636824211975007e-16,
+     "C_given_V": 0.13764134625229033,
+     "V_given_C_shuffled": 0.4369984422403095
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 1.6094585657709204e-16,
+     "C_given_V": 0.26932984676122723,
+     "V_given_C_shuffled": 0.4881844216197194
+    },
+    "future": {
+     "V_given_C": 1.6094585657709204e-16,
+     "C_given_V": 0.26932984676122723,
+     "V_given_C_shuffled": 0.49072561366941875
+    },
+    "phase": {
+     "V_given_C": 2.3190328264372536e-16,
+     "C_given_V": 0.4928992278690745,
+     "V_given_C_shuffled": 0.5975420260164123
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.8165021117555188,
+     "V_given_C_shuffled": 0.7647061132711492
+    },
+    "last2": {
+     "V_given_C": 3.215512037930611e-16,
+     "C_given_V": 0.6342780487178289,
+     "V_given_C_shuffled": 0.6837385406530765
+    },
+    "xor2": {
+     "V_given_C": 6.453482945592106e-16,
+     "C_given_V": 0.8177754017795119,
+     "V_given_C_shuffled": 0.7711764000797875
+    },
+    "ph_last2": {
+     "V_given_C": 1.3636824211975007e-16,
+     "C_given_V": 0.13764134625229033,
+     "V_given_C_shuffled": 0.4348121627423135
+    },
+    "ph_xor": {
+     "V_given_C": 5.135189800231515e-16,
+     "C_given_V": 0.31298546930225885,
+     "V_given_C_shuffled": 0.5123665748687164
+    },
+    "bel_last2": {
+     "V_given_C": 1.3636824211975007e-16,
+     "C_given_V": 0.13764134625229033,
+     "V_given_C_shuffled": 0.43544507186290643
+    }
+   }
+  },
+  "p3_t9": {
+   "threshold": 0.0009866716339789966,
+   "separation": 0.6969970201695747,
+   "n_clusters": 7,
+   "n_clusters_fine": 17,
+   "n_distinct": {
+    "belief": 16,
+    "future": 16,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 27,
+    "ph_xor": 14,
+    "bel_last2": 27
+   },
+   "d_quantiles": [
+    7.511852246666864e-06,
+    0.00021983677067482872,
+    0.010536649883953864,
+    0.02565547545454338,
+    0.047680019290932296
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.709325162247772,
+     "C_given_V": 0.5827206877557121,
+     "V_given_C_shuffled": 0.9024083637111937
+    },
+    "future": {
+     "V_given_C": 0.7093251622477723,
+     "C_given_V": 0.5827206877557121,
+     "V_given_C_shuffled": 0.902235262932798
+    },
+    "phase": {
+     "V_given_C": 0.8837659034685172,
+     "C_given_V": 0.8766303033492281,
+     "V_given_C_shuffled": 0.9437346799757225
+    },
+    "last1": {
+     "V_given_C": -3.209216318230794e-16,
+     "C_given_V": 0.5896969609842211,
+     "V_given_C_shuffled": 0.976230776895312
+    },
+    "last2": {
+     "V_given_C": 0.4245645169688176,
+     "C_given_V": 0.5329895885238495,
+     "V_given_C_shuffled": 0.9648648327077995
+    },
+    "xor2": {
+     "V_given_C": 0.8383318919034379,
+     "C_given_V": 0.9335519886744574,
+     "V_given_C_shuffled": 0.9756357155339797
+    },
+    "ph_last2": {
+     "V_given_C": 0.6423001046246228,
+     "C_given_V": 0.34226126254263384,
+     "V_given_C_shuffled": 0.8721094489358842
+    },
+    "ph_xor": {
+     "V_given_C": 0.81283773829518,
+     "C_given_V": 0.7280512757190355,
+     "V_given_C_shuffled": 0.9158574576337116
+    },
+    "bel_last2": {
+     "V_given_C": 0.6423001046246228,
+     "C_given_V": 0.34226126254263384,
+     "V_given_C_shuffled": 0.8740281891200626
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.6045660759962126,
+     "C_given_V": 0.6187590730665986,
+     "V_given_C_shuffled": 0.7958446557066564
+    },
+    "future": {
+     "V_given_C": 0.6045660759962129,
+     "C_given_V": 0.6187590730665986,
+     "V_given_C_shuffled": 0.7968756495071552
+    },
+    "phase": {
+     "V_given_C": 0.7773070376146258,
+     "C_given_V": 0.8412595444321258,
+     "V_given_C_shuffled": 0.8661178461284935
+    },
+    "last1": {
+     "V_given_C": 6.418432636461588e-16,
+     "C_given_V": 0.7244433407361944,
+     "V_given_C_shuffled": 0.9331188053678521
+    },
+    "last2": {
+     "V_given_C": 0.4143654969567886,
+     "C_given_V": 0.6808000921515104,
+     "V_given_C_shuffled": 0.9004636952541
+    },
+    "xor2": {
+     "V_given_C": 0.8181932241615156,
+     "C_given_V": 0.9498150062914675,
+     "V_given_C_shuffled": 0.9326615092864121
+    },
+    "ph_last2": {
+     "V_given_C": 0.5400236645277487,
+     "C_given_V": 0.4319634599778472,
+     "V_given_C_shuffled": 0.741307167409856
+    },
+    "ph_xor": {
+     "V_given_C": 0.6834057957333591,
+     "C_given_V": 0.6910573420588435,
+     "V_given_C_shuffled": 0.8059598481405907
+    },
+    "bel_last2": {
+     "V_given_C": 0.5400236645277487,
+     "C_given_V": 0.4319634599778472,
+     "V_given_C_shuffled": 0.7428735794315875
+    }
+   }
+  },
+  "p3_t14": {
+   "threshold": 0.0006996695553094425,
+   "separation": 0.6126682137764448,
+   "n_clusters": 13,
+   "n_clusters_fine": 34,
+   "n_distinct": {
+    "belief": 14,
+    "future": 14,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 24,
+    "ph_xor": 13,
+    "bel_last2": 24
+   },
+   "d_quantiles": [
+    2.5258637701939107e-05,
+    0.0004361369984650594,
+    0.0018847776827552413,
+    0.006241091069749055,
+    0.017721324458342486
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.7651087780473537,
+     "C_given_V": 0.7874854521725065,
+     "V_given_C_shuffled": 0.8518039291867229
+    },
+    "future": {
+     "V_given_C": 0.7651087780473536,
+     "C_given_V": 0.7874854521725064,
+     "V_given_C_shuffled": 0.8511715444406407
+    },
+    "phase": {
+     "V_given_C": 0.87958204868129,
+     "C_given_V": 0.9174108864305517,
+     "V_given_C_shuffled": 0.894791555127304
+    },
+    "last1": {
+     "V_given_C": 0.19616131227618058,
+     "C_given_V": 0.7480668147806262,
+     "V_given_C_shuffled": 0.9494505005059125
+    },
+    "last2": {
+     "V_given_C": 0.5478472005118895,
+     "C_given_V": 0.7168265623350012,
+     "V_given_C_shuffled": 0.9291710730091396
+    },
+    "xor2": {
+     "V_given_C": 0.9076211174844017,
+     "C_given_V": 0.9710975694323215,
+     "V_given_C_shuffled": 0.9454467390595398
+    },
+    "ph_last2": {
+     "V_given_C": 0.6674082656600778,
+     "C_given_V": 0.5712230720012315,
+     "V_given_C_shuffled": 0.8152760766968609
+    },
+    "ph_xor": {
+     "V_given_C": 0.8282999006317379,
+     "C_given_V": 0.8302557055619982,
+     "V_given_C_shuffled": 0.8586916754573317
+    },
+    "bel_last2": {
+     "V_given_C": 0.6674082656600778,
+     "C_given_V": 0.5712230720012315,
+     "V_given_C_shuffled": 0.8163310240552264
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.6029021352988747,
+     "C_given_V": 0.7551346461945517,
+     "V_given_C_shuffled": 0.674378808663874
+    },
+    "future": {
+     "V_given_C": 0.6029021352988752,
+     "C_given_V": 0.7551346461945515,
+     "V_given_C_shuffled": 0.6776416237749635
+    },
+    "phase": {
+     "V_given_C": 0.7171348346879591,
+     "C_given_V": 0.8677733639930583,
+     "V_given_C_shuffled": 0.7364997438618558
+    },
+    "last1": {
+     "V_given_C": -6.418432636461588e-16,
+     "C_given_V": 0.7863886208173574,
+     "V_given_C_shuffled": 0.8523142703718204
+    },
+    "last2": {
+     "V_given_C": 0.3987935633917315,
+     "C_given_V": 0.7433750832727037,
+     "V_given_C_shuffled": 0.7947163366541505
+    },
+    "xor2": {
+     "V_given_C": 0.7982772764056418,
+     "C_given_V": 0.9569845573557754,
+     "V_given_C_shuffled": 0.8557643572415397
+    },
+    "ph_last2": {
+     "V_given_C": 0.4895303666842693,
+     "C_given_V": 0.5514635106908227,
+     "V_given_C_shuffled": 0.6080568509280394
+    },
+    "ph_xor": {
+     "V_given_C": 0.6383736537100432,
+     "C_given_V": 0.7563353020688846,
+     "V_given_C_shuffled": 0.6765700243354833
+    },
+    "bel_last2": {
+     "V_given_C": 0.4895303666842693,
+     "C_given_V": 0.5514635106908227,
+     "V_given_C_shuffled": 0.6078839747311635
+    }
+   }
+  },
+  "p3_t28": {
+   "threshold": 0.0001893189122039529,
+   "separation": 0.6092175972887708,
+   "n_clusters": 14,
+   "n_clusters_fine": 39,
+   "n_distinct": {
+    "belief": 6,
+    "future": 6,
+    "phase": 4,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 13,
+    "ph_xor": 7,
+    "bel_last2": 13
+   },
+   "d_quantiles": [
+    1.1212885934678014e-05,
+    9.798933055684648e-05,
+    0.0003394534934901031,
+    0.0010202261557686098,
+    0.0029685782937204286
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.8711920690201708,
+     "C_given_V": 0.9123274066869352,
+     "V_given_C_shuffled": 0.8995570140951817
+    },
+    "future": {
+     "V_given_C": 0.8711920690201704,
+     "C_given_V": 0.9123274066869355,
+     "V_given_C_shuffled": 0.9042557622225934
+    },
+    "phase": {
+     "V_given_C": 0.9338178456222714,
+     "C_given_V": 0.9680919434115891,
+     "V_given_C_shuffled": 0.926674497993535
+    },
+    "last1": {
+     "V_given_C": 0.514116374612504,
+     "C_given_V": 0.8554909539413491,
+     "V_given_C_shuffled": 0.9440370290916192
+    },
+    "last2": {
+     "V_given_C": 0.7248141585945472,
+     "C_given_V": 0.8386668204294316,
+     "V_given_C_shuffled": 0.923915842555623
+    },
+    "xor2": {
+     "V_given_C": 0.9234083728425243,
+     "C_given_V": 0.977213931206008,
+     "V_given_C_shuffled": 0.9456797986984098
+    },
+    "ph_last2": {
+     "V_given_C": 0.7843700189435783,
+     "C_given_V": 0.7708687132055868,
+     "V_given_C_shuffled": 0.8455870034534793
+    },
+    "ph_xor": {
+     "V_given_C": 0.9049841039862819,
+     "C_given_V": 0.9261425126239804,
+     "V_given_C_shuffled": 0.8957018229627133
+    },
+    "bel_last2": {
+     "V_given_C": 0.7843700189435783,
+     "C_given_V": 0.7708687132055868,
+     "V_given_C_shuffled": 0.8452316111200537
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.6561524126588308,
+     "C_given_V": 0.8429800204635193,
+     "V_given_C_shuffled": 0.7185720100075025
+    },
+    "future": {
+     "V_given_C": 0.6561524126588308,
+     "C_given_V": 0.8429800204635193,
+     "V_given_C_shuffled": 0.7217996212112996
+    },
+    "phase": {
+     "V_given_C": 0.785799346352923,
+     "C_given_V": 0.930713610423202,
+     "V_given_C_shuffled": 0.7818224615642688
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.8004597751709271,
+     "V_given_C_shuffled": 0.8285273343687318
+    },
+    "last2": {
+     "V_given_C": 0.4203642851221752,
+     "C_given_V": 0.7720075679831693,
+     "V_given_C_shuffled": 0.7599780896921099
+    },
+    "xor2": {
+     "V_given_C": 0.8283908821043703,
+     "C_given_V": 0.9657471941027561,
+     "V_given_C_shuffled": 0.8317057602242771
+    },
+    "ph_last2": {
+     "V_given_C": 0.5161865345022503,
+     "C_given_V": 0.6550780067275676,
+     "V_given_C_shuffled": 0.6119588490432213
+    },
+    "ph_xor": {
+     "V_given_C": 0.7056407611339999,
+     "C_given_V": 0.8464875445348479,
+     "V_given_C_shuffled": 0.6987262641825684
+    },
+    "bel_last2": {
+     "V_given_C": 0.5161865345022503,
+     "C_given_V": 0.6550780067275676,
+     "V_given_C_shuffled": 0.608887908944815
+    }
+   }
+  },
+  "p4_t4": {
+   "threshold": 1.7549810388688158e-09,
+   "separation": 0.9319793204627903,
+   "n_clusters": 16,
+   "n_clusters_fine": 16,
+   "n_distinct": {
+    "belief": 12,
+    "future": 12,
+    "phase": 4,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 16,
+    "ph_xor": 8,
+    "bel_last2": 16
+   },
+   "d_quantiles": [
+    1e-12,
+    0.00048356447903457977,
+    0.0016657683125884213,
+    0.0058836112231279766,
+    0.01435672310279697
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 1.8430693189610584e-16,
+     "C_given_V": 0.08570353904510443,
+     "V_given_C_shuffled": 0.8111859656726434
+    },
+    "future": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.08570353904510426,
+     "V_given_C_shuffled": 0.814076097206851
+    },
+    "phase": {
+     "V_given_C": 3.463670066590868e-16,
+     "C_given_V": 0.5134895289610468,
+     "V_given_C_shuffled": 0.9029040014773106
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.7371537019206267,
+     "V_given_C_shuffled": 0.9437628199769997
+    },
+    "last2": {
+     "V_given_C": 3.222383870525811e-16,
+     "C_given_V": 0.4770605168943829,
+     "V_given_C_shuffled": 0.9097220587640225
+    },
+    "xor2": {
+     "V_given_C": 6.429597678007998e-16,
+     "C_given_V": 0.7379133438808378,
+     "V_given_C_shuffled": 0.9472990465857238
+    },
+    "ph_last2": {
+     "V_given_C": 1.6851117556206452e-16,
+     "C_given_V": -1.6851117556206454e-16,
+     "V_given_C_shuffled": 0.7828359377678187
+    },
+    "ph_xor": {
+     "V_given_C": 2.2571422072341464e-16,
+     "C_given_V": 0.25343128571170315,
+     "V_given_C_shuffled": 0.8562539860678943
+    },
+    "bel_last2": {
+     "V_given_C": 1.6851117556206452e-16,
+     "C_given_V": -1.6851117556206454e-16,
+     "V_given_C_shuffled": 0.7870044679884773
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 1.8430693189610584e-16,
+     "C_given_V": 0.08570353904510443,
+     "V_given_C_shuffled": 0.8099279081360189
+    },
+    "future": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.08570353904510426,
+     "V_given_C_shuffled": 0.8101252498396889
+    },
+    "phase": {
+     "V_given_C": 3.463670066590868e-16,
+     "C_given_V": 0.5134895289610468,
+     "V_given_C_shuffled": 0.9005604218919853
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.7371537019206267,
+     "V_given_C_shuffled": 0.9351823604651572
+    },
+    "last2": {
+     "V_given_C": 3.222383870525811e-16,
+     "C_given_V": 0.4770605168943829,
+     "V_given_C_shuffled": 0.9052549788244362
+    },
+    "xor2": {
+     "V_given_C": 6.429597678007998e-16,
+     "C_given_V": 0.7379133438808378,
+     "V_given_C_shuffled": 0.9394163745444429
+    },
+    "ph_last2": {
+     "V_given_C": 1.6851117556206452e-16,
+     "C_given_V": -1.6851117556206454e-16,
+     "V_given_C_shuffled": 0.7796363162290219
+    },
+    "ph_xor": {
+     "V_given_C": 2.2571422072341464e-16,
+     "C_given_V": 0.25343128571170315,
+     "V_given_C_shuffled": 0.848242569826668
+    },
+    "bel_last2": {
+     "V_given_C": 1.6851117556206452e-16,
+     "C_given_V": -1.6851117556206454e-16,
+     "V_given_C_shuffled": 0.7791337197627495
+    }
+   }
+  },
+  "p4_t6": {
+   "threshold": 1.1367005801069747e-07,
+   "separation": 0.7178218009285875,
+   "n_clusters": 49,
+   "n_clusters_fine": 50,
+   "n_distinct": {
+    "belief": 17,
+    "future": 17,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 28,
+    "ph_xor": 14,
+    "bel_last2": 28
+   },
+   "d_quantiles": [
+    5.717992976244597e-05,
+    0.001461245674888159,
+    0.007980058158966878,
+    0.02909802640351459,
+    0.08821420022109905
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.015404962548581253,
+     "C_given_V": 0.2723959206286958,
+     "V_given_C_shuffled": 0.49905683536730777
+    },
+    "future": {
+     "V_given_C": 0.015404962548581091,
+     "C_given_V": 0.27239592062869566,
+     "V_given_C_shuffled": 0.5025927235653778
+    },
+    "phase": {
+     "V_given_C": 0.022196665760752004,
+     "C_given_V": 0.49851043457356037,
+     "V_given_C_shuffled": 0.6098535108660091
+    },
+    "last1": {
+     "V_given_C": 6.408702291529843e-16,
+     "C_given_V": 0.8144131561991714,
+     "V_given_C_shuffled": 0.7909046224679495
+    },
+    "last2": {
+     "V_given_C": 0.030777333180432867,
+     "C_given_V": 0.64149872393548,
+     "V_given_C_shuffled": 0.6854486002977874
+    },
+    "xor2": {
+     "V_given_C": 0.061769631849536745,
+     "C_given_V": 0.8270850264609441,
+     "V_given_C_shuffled": 0.7786555475824865
+    },
+    "ph_last2": {
+     "V_given_C": 0.013052511616938491,
+     "C_given_V": 0.13920826703697964,
+     "V_given_C_shuffled": 0.4485658226427634
+    },
+    "ph_xor": {
+     "V_given_C": 0.016383854843037643,
+     "C_given_V": 0.3165485224872844,
+     "V_given_C_shuffled": 0.5241835846176071
+    },
+    "bel_last2": {
+     "V_given_C": 0.013052511616938491,
+     "C_given_V": 0.13920826703697964,
+     "V_given_C_shuffled": 0.44845418175289153
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.010380784332367306,
+     "C_given_V": 0.27138830788363677,
+     "V_given_C_shuffled": 0.4966806480073682
+    },
+    "future": {
+     "V_given_C": 0.010380784332367146,
+     "C_given_V": 0.27138830788363666,
+     "V_given_C_shuffled": 0.49805864828206375
+    },
+    "phase": {
+     "V_given_C": 0.014957439814173978,
+     "C_given_V": 0.496666407444733,
+     "V_given_C_shuffled": 0.6054709713802955
+    },
+    "last1": {
+     "V_given_C": 6.408702291529843e-16,
+     "C_given_V": 0.8150996557205203,
+     "V_given_C_shuffled": 0.7709968954392249
+    },
+    "last2": {
+     "V_given_C": 0.020739606283619965,
+     "C_given_V": 0.6391257725025635,
+     "V_given_C_shuffled": 0.690222120129536
+    },
+    "xor2": {
+     "V_given_C": 0.04162406915937737,
+     "C_given_V": 0.8240255775088965,
+     "V_given_C_shuffled": 0.7752485871570053
+    },
+    "ph_last2": {
+     "V_given_C": 0.00879556231726354,
+     "C_given_V": 0.13869332531626555,
+     "V_given_C_shuffled": 0.44250091824166143
+    },
+    "ph_xor": {
+     "V_given_C": 0.01104042045685135,
+     "C_given_V": 0.31537758598811944,
+     "V_given_C_shuffled": 0.519822136880118
+    },
+    "bel_last2": {
+     "V_given_C": 0.00879556231726354,
+     "C_given_V": 0.13869332531626555,
+     "V_given_C_shuffled": 0.4429314142120307
+    }
+   }
+  },
+  "p4_t9": {
+   "threshold": 0.001032465678058485,
+   "separation": 0.6769564574552748,
+   "n_clusters": 8,
+   "n_clusters_fine": 18,
+   "n_distinct": {
+    "belief": 16,
+    "future": 16,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 27,
+    "ph_xor": 14,
+    "bel_last2": 27
+   },
+   "d_quantiles": [
+    8.108326651123623e-06,
+    0.00029580646423902745,
+    0.009444136940189394,
+    0.025578162983493937,
+    0.050170221418050685
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.7103542996422956,
+     "C_given_V": 0.5995248114923677,
+     "V_given_C_shuffled": 0.8934414096960972
+    },
+    "future": {
+     "V_given_C": 0.7103542996422954,
+     "C_given_V": 0.5995248114923674,
+     "V_given_C_shuffled": 0.8961161139841499
+    },
+    "phase": {
+     "V_given_C": 0.8868076514797396,
+     "C_given_V": 0.8842872708819561,
+     "V_given_C_shuffled": 0.9361706594625855
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.6048210099477076,
+     "V_given_C_shuffled": 0.972736701824567
+    },
+    "last2": {
+     "V_given_C": 0.4428315800172996,
+     "C_given_V": 0.5644825800848944,
+     "V_given_C_shuffled": 0.9563505366021087
+    },
+    "xor2": {
+     "V_given_C": 0.8744014665214178,
+     "C_given_V": 0.9502799778427792,
+     "V_given_C_shuffled": 0.9700606350975002
+    },
+    "ph_last2": {
+     "V_given_C": 0.6392982762251438,
+     "C_given_V": 0.36118965831879873,
+     "V_given_C_shuffled": 0.8629639979641333
+    },
+    "ph_xor": {
+     "V_given_C": 0.8090388919468535,
+     "C_given_V": 0.7327591893293838,
+     "V_given_C_shuffled": 0.9079712357261219
+    },
+    "bel_last2": {
+     "V_given_C": 0.6392982762251437,
+     "C_given_V": 0.36118965831879846,
+     "V_given_C_shuffled": 0.8643663467248033
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.5573616052683487,
+     "C_given_V": 0.5971669107625626,
+     "V_given_C_shuffled": 0.7733958016774727
+    },
+    "future": {
+     "V_given_C": 0.5573616052683487,
+     "C_given_V": 0.5971669107625626,
+     "V_given_C_shuffled": 0.7736364930933539
+    },
+    "phase": {
+     "V_given_C": 0.7254667873804224,
+     "C_given_V": 0.8152746558494006,
+     "V_given_C_shuffled": 0.8521303259419665
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.7398874101864709,
+     "V_given_C_shuffled": 0.9299930084764411
+    },
+    "last2": {
+     "V_given_C": 0.3956398973474182,
+     "C_given_V": 0.6890558788175679,
+     "V_given_C_shuffled": 0.8947404144541585
+    },
+    "xor2": {
+     "V_given_C": 0.7812182375101859,
+     "C_given_V": 0.9429933673992477,
+     "V_given_C_shuffled": 0.9309692183149316
+    },
+    "ph_last2": {
+     "V_given_C": 0.4974638878312327,
+     "C_given_V": 0.41418765124626716,
+     "V_given_C_shuffled": 0.7148074625718026
+    },
+    "ph_xor": {
+     "V_given_C": 0.6295459374159427,
+     "C_given_V": 0.6587601498858646,
+     "V_given_C_shuffled": 0.7841013266574766
+    },
+    "bel_last2": {
+     "V_given_C": 0.4974638878312327,
+     "C_given_V": 0.41418765124626716,
+     "V_given_C_shuffled": 0.715618698608381
+    }
+   }
+  },
+  "p4_t14": {
+   "threshold": 0.0007325920873173846,
+   "separation": 0.6281423755613746,
+   "n_clusters": 13,
+   "n_clusters_fine": 34,
+   "n_distinct": {
+    "belief": 14,
+    "future": 14,
+    "phase": 7,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 24,
+    "ph_xor": 13,
+    "bel_last2": 24
+   },
+   "d_quantiles": [
+    2.723356771812647e-05,
+    0.00040410371247759646,
+    0.0019393007682799773,
+    0.006474199055412306,
+    0.018676163431936142
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.7787639526145657,
+     "C_given_V": 0.7923782670273433,
+     "V_given_C_shuffled": 0.8578014882216429
+    },
+    "future": {
+     "V_given_C": 0.7787639526145659,
+     "C_given_V": 0.7923782670273434,
+     "V_given_C_shuffled": 0.8567506184703165
+    },
+    "phase": {
+     "V_given_C": 0.8782416247967714,
+     "C_given_V": 0.9133785483770546,
+     "V_given_C_shuffled": 0.8952104661536375
+    },
+    "last1": {
+     "V_given_C": 0.5313001618460246,
+     "C_given_V": 0.8476275960064326,
+     "V_given_C_shuffled": 0.9503565712978655
+    },
+    "last2": {
+     "V_given_C": 0.7113041098585511,
+     "C_given_V": 0.8124561042550832,
+     "V_given_C_shuffled": 0.9295801505632622
+    },
+    "xor2": {
+     "V_given_C": 0.9306124624631358,
+     "C_given_V": 0.977481566249935,
+     "V_given_C_shuffled": 0.9436920429056269
+    },
+    "ph_last2": {
+     "V_given_C": 0.7171048610366721,
+     "C_given_V": 0.62169639107236,
+     "V_given_C_shuffled": 0.8243373700057951
+    },
+    "ph_xor": {
+     "V_given_C": 0.8361344748649693,
+     "C_given_V": 0.831962088256001,
+     "V_given_C_shuffled": 0.8659169152238022
+    },
+    "bel_last2": {
+     "V_given_C": 0.7171048610366725,
+     "C_given_V": 0.6216963910723596,
+     "V_given_C_shuffled": 0.825095032909395
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.5895915994236605,
+     "C_given_V": 0.7452199393787728,
+     "V_given_C_shuffled": 0.6792356001772931
+    },
+    "future": {
+     "V_given_C": 0.5895915994236615,
+     "C_given_V": 0.7452199393787728,
+     "V_given_C_shuffled": 0.6814226574768384
+    },
+    "phase": {
+     "V_given_C": 0.6989608124201926,
+     "C_given_V": 0.8583286864349692,
+     "V_given_C_shuffled": 0.7429786951070675
+    },
+    "last1": {
+     "V_given_C": 0.0,
+     "C_given_V": 0.7849478494427026,
+     "V_given_C_shuffled": 0.8477096132173324
+    },
+    "last2": {
+     "V_given_C": 0.3945434076500356,
+     "C_given_V": 0.7398177781768687,
+     "V_given_C_shuffled": 0.7984484307870264
+    },
+    "xor2": {
+     "V_given_C": 0.7897696096295651,
+     "C_given_V": 0.954868010785032,
+     "V_given_C_shuffled": 0.8541965706065736
+    },
+    "ph_last2": {
+     "V_given_C": 0.4836852948260869,
+     "C_given_V": 0.543267655961652,
+     "V_given_C_shuffled": 0.6137097258282472
+    },
+    "ph_xor": {
+     "V_given_C": 0.6307513688994422,
+     "C_given_V": 0.7495212717238889,
+     "V_given_C_shuffled": 0.6813450533632066
+    },
+    "bel_last2": {
+     "V_given_C": 0.4836852948260869,
+     "C_given_V": 0.543267655961652,
+     "V_given_C_shuffled": 0.6132090295011827
+    }
+   }
+  },
+  "p4_t28": {
+   "threshold": 0.00018638182416129092,
+   "separation": 0.5858270027431235,
+   "n_clusters": 12,
+   "n_clusters_fine": 36,
+   "n_distinct": {
+    "belief": 6,
+    "future": 6,
+    "phase": 4,
+    "last1": 2,
+    "last2": 4,
+    "xor2": 2,
+    "ph_last2": 13,
+    "ph_xor": 7,
+    "bel_last2": 13
+   },
+   "d_quantiles": [
+    1.0954603499377373e-05,
+    0.00010051490510820843,
+    0.00033695475833025204,
+    0.001029530380992295,
+    0.00299029085918605
+   ],
+   "scores": {
+    "belief": {
+     "V_given_C": 0.8578201702363237,
+     "C_given_V": 0.9002826717640954,
+     "V_given_C_shuffled": 0.9138577423508025
+    },
+    "future": {
+     "V_given_C": 0.8578201702363232,
+     "C_given_V": 0.9002826717640954,
+     "V_given_C_shuffled": 0.9128787414974912
+    },
+    "phase": {
+     "V_given_C": 0.9232706536116809,
+     "C_given_V": 0.9618818032653663,
+     "V_given_C_shuffled": 0.9361608051811178
+    },
+    "last1": {
+     "V_given_C": 0.603244905748562,
+     "C_given_V": 0.8784103305582383,
+     "V_given_C_shuffled": 0.9535627326242968
+    },
+    "last2": {
+     "V_given_C": 0.7596424931828157,
+     "C_given_V": 0.8547999742195805,
+     "V_given_C_shuffled": 0.934345107672733
+    },
+    "xor2": {
+     "V_given_C": 0.9406129920411486,
+     "C_given_V": 0.9817949888790701,
+     "V_given_C_shuffled": 0.9517108106647838
+    },
+    "ph_last2": {
+     "V_given_C": 0.7936725956683733,
+     "C_given_V": 0.7740857846449737,
+     "V_given_C_shuffled": 0.8594132939302891
+    },
+    "ph_xor": {
+     "V_given_C": 0.9072558066733595,
+     "C_given_V": 0.9257158113768869,
+     "V_given_C_shuffled": 0.9058551911192297
+    },
+    "bel_last2": {
+     "V_given_C": 0.7936725956683733,
+     "C_given_V": 0.7740857846449741,
+     "V_given_C_shuffled": 0.8619729929036434
+    }
+   },
+   "scores_fine": {
+    "belief": {
+     "V_given_C": 0.6767683462867697,
+     "C_given_V": 0.847572470776363,
+     "V_given_C_shuffled": 0.7442497316952981
+    },
+    "future": {
+     "V_given_C": 0.6767683462867685,
+     "C_given_V": 0.8475724707763633,
+     "V_given_C_shuffled": 0.749101772665935
+    },
+    "phase": {
+     "V_given_C": 0.8069841616847632,
+     "C_given_V": 0.9355265844818067,
+     "V_given_C_shuffled": 0.8030615567627882
+    },
+    "last1": {
+     "V_given_C": 6.408702291529843e-16,
+     "C_given_V": 0.7939412561447704,
+     "V_given_C_shuffled": 0.8443643253720978
+    },
+    "last2": {
+     "V_given_C": 0.4113644735576865,
+     "C_given_V": 0.7609039756306878,
+     "V_given_C_shuffled": 0.7829983824264081
+    },
+    "xor2": {
+     "V_given_C": 0.8106554033671293,
+     "C_given_V": 0.9609726285921696,
+     "V_given_C_shuffled": 0.8437497376812725
+    },
+    "ph_last2": {
+     "V_given_C": 0.5414167326780457,
+     "C_given_V": 0.6623850023579599,
+     "V_given_C_shuffled": 0.6400009445818692
+    },
+    "ph_xor": {
+     "V_given_C": 0.7401311150164336,
+     "C_given_V": 0.8600474483949134,
+     "V_given_C_shuffled": 0.7261747601357006
+    },
+    "bel_last2": {
+     "V_given_C": 0.5414167326780457,
+     "C_given_V": 0.6623850023579597,
+     "V_given_C_shuffled": 0.639745998984741
+    }
+   }
+  }
+ },
+ "n_beliefs_reachable_len<=12": 36,
+ "n_futureK_classes_of_those": 36,
+ "reachable_counts_len<=28": {
+  "belief": 33,
+  "phase": 12,
+  "ph_last2": 48,
+  "ph_xor": 24,
+  "bel_last2": 48
+ },
+ "sanity_kl_to_bayes": 0.5366142893665994,
+ "transitions": {
+  "0->1": [
+   0.7371537019206267,
+   0.8165021117555188,
+   0.4913190638888573,
+   0.7709638192793028,
+   0.7552539946382757
+  ],
+  "1->2": [
+   0.0,
+   1.1759833368832935e-16,
+   0.3909288766766577,
+   0.2984385745492013,
+   0.4167099963643157
+  ],
+  "2->3": [
+   1.6851117556206452e-16,
+   -2.3519666737665875e-16,
+   0.16908250008468415,
+   0.255837017547133,
+   0.3299034542748509
+  ],
+  "3->4": [
+   -1.6851117556206454e-16,
+   0.0,
+   0.2283486088676327,
+   0.22991534954308504,
+   0.2089931679318401
+  ]
+ }
+}

@@ -1,0 +1,3 @@
+[submodule "external/belief-state"]
+	path = external/belief-state
+	url = https://github.com/artemyk/belief-state.git

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+logs/
+# large saved matrices (fut_svd.py --save) and intermediate training checkpoints
+*.npz
+runs_fact/*/s*/

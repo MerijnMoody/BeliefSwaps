@@ -1,0 +1,2593 @@
+{
+ "arch": "L4_d64",
+ "seed": 2,
+ "K": 4,
+ "k_list": [
+  1,
+  2,
+  4,
+  8,
+  16,
+  32,
+  48,
+  60
+ ],
+ "cells": {
+  "p1_t6": {
+   "threshold": 6.705420575760317e-05,
+   "radius": 44.81417892531436,
+   "between_group_distance": 20.80089924872644,
+   "random_broken_at_radius": 0.9125,
+   "n_groups": 4,
+   "ones_direction_max_kl": 5.647762422823001e-15,
+   "per_context": {
+    "1": {
+     "frac_flat": 0.66015625,
+     "median_kl": 5.600572606436212e-06
+    },
+    "2": {
+     "frac_flat": 0.4130859375,
+     "median_kl": 0.00011059893152657024
+    },
+    "4": {
+     "frac_flat": 0.28125,
+     "median_kl": 0.00042059609552917883
+    },
+    "8": {
+     "frac_flat": 0.158203125,
+     "median_kl": 0.0021970181719458345
+    },
+    "16": {
+     "frac_flat": 0.1103515625,
+     "median_kl": 0.0070093740137711046
+    },
+    "32": {
+     "frac_flat": 0.064453125,
+     "median_kl": 0.03498363707770852
+    },
+    "48": {
+     "frac_flat": 0.0546875,
+     "median_kl": 0.07200678146246745
+    },
+    "60": {
+     "frac_flat": 0.0498046875,
+     "median_kl": 0.11510759225573622
+    }
+   },
+   "shared": {
+    "1": {
+     "learned": {
+      "frac_flat": 0.178125,
+      "median_kl": 0.010498681011037125
+     },
+     "pca_lowest": {
+      "frac_flat": 0.15125,
+      "median_kl": 0.023531550297013232
+     },
+     "random": {
+      "frac_flat": 0.0971875,
+      "median_kl": 0.04852942421800678
+     },
+     "variance_share_learned": 0.0018854522094994412,
+     "variance_share_pca_lowest": 2.3494819973848915e-17,
+     "variance_share_random": 0.013276287466445094,
+     "within_group_diff_share": 0.005098760226405833,
+     "between_group_diff_share": 0.001870962729089494
+    },
+    "2": {
+     "learned": {
+      "frac_flat": 0.1071875,
+      "median_kl": 0.02771931142244599
+     },
+     "pca_lowest": {
+      "frac_flat": 0.10312500000000001,
+      "median_kl": 0.04557048217470851
+     },
+     "random": {
+      "frac_flat": 0.0571875,
+      "median_kl": 0.18700935472999625
+     },
+     "variance_share_learned": 0.00935113768680571,
+     "variance_share_pca_lowest": 2.8519294716335e-17,
+     "variance_share_random": 0.056756236415121515,
+     "within_group_diff_share": 0.009215619602658024,
+     "between_group_diff_share": 0.009319666691747323
+    },
+    "4": {
+     "learned": {
+      "frac_flat": 0.09375,
+      "median_kl": 0.02050568769884116
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0828125,
+      "median_kl": 0.044737236505884986
+     },
+     "random": {
+      "frac_flat": 0.105,
+      "median_kl": 0.052544336255588395
+     },
+     "variance_share_learned": 0.01736008902961762,
+     "variance_share_pca_lowest": 4.3060411877579985e-17,
+     "variance_share_random": 0.10865165336598138,
+     "within_group_diff_share": 0.049333950110749,
+     "between_group_diff_share": 0.0172206782602782
+    },
+    "8": {
+     "learned": {
+      "frac_flat": 0.1140625,
+      "median_kl": 0.016720461873307464
+     },
+     "pca_lowest": {
+      "frac_flat": 0.1065625,
+      "median_kl": 0.048199237740532676
+     },
+     "random": {
+      "frac_flat": 0.075,
+      "median_kl": 0.09245476007375025
+     },
+     "variance_share_learned": 0.03754154774360012,
+     "variance_share_pca_lowest": 7.429992403419761e-17,
+     "variance_share_random": 0.11338806737106308,
+     "within_group_diff_share": 0.052425659513649144,
+     "between_group_diff_share": 0.037376430122358084
+    },
+    "16": {
+     "learned": {
+      "frac_flat": 0.1184375,
+      "median_kl": 0.02041578052933131
+     },
+     "pca_lowest": {
+      "frac_flat": 0.104375,
+      "median_kl": 0.05782200673032961
+     },
+     "random": {
+      "frac_flat": 0.10187500000000001,
+      "median_kl": 0.0764875734540979
+     },
+     "variance_share_learned": 0.09034648250777391,
+     "variance_share_pca_lowest": 1.7082383856767796e-16,
+     "variance_share_random": 0.28027374764680113,
+     "within_group_diff_share": 0.10759545639424858,
+     "between_group_diff_share": 0.08999578502791947
+    },
+    "32": {
+     "learned": {
+      "frac_flat": 0.11,
+      "median_kl": 0.025618608406294346
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0925,
+      "median_kl": 0.05713637960512952
+     },
+     "random": {
+      "frac_flat": 0.0928125,
+      "median_kl": 0.0680270482569946
+     },
+     "variance_share_learned": 0.18708420773245243,
+     "variance_share_pca_lowest": 4.526780670310148e-13,
+     "variance_share_random": 0.47794153603076184,
+     "within_group_diff_share": 0.3821267702418933,
+     "between_group_diff_share": 0.18595760527376903
+    },
+    "48": {
+     "learned": {
+      "frac_flat": 0.0990625,
+      "median_kl": 0.04001032548875903
+     },
+     "pca_lowest": {
+      "frac_flat": 0.09625,
+      "median_kl": 0.057308600244930466
+     },
+     "random": {
+      "frac_flat": 0.0909375,
+      "median_kl": 0.0842033388255366
+     },
+     "variance_share_learned": 0.3634786886655378,
+     "variance_share_pca_lowest": 2.059221895585136e-08,
+     "variance_share_random": 0.7107565790785854,
+     "within_group_diff_share": 0.6830745309147067,
+     "between_group_diff_share": 0.3614389958894288
+    },
+    "60": {
+     "learned": {
+      "frac_flat": 0.091875,
+      "median_kl": 0.05712786923068125
+     },
+     "pca_lowest": {
+      "frac_flat": 0.084375,
+      "median_kl": 0.06841907179110672
+     },
+     "random": {
+      "frac_flat": 0.08687500000000001,
+      "median_kl": 0.08331369974744757
+     },
+     "variance_share_learned": 0.6011595463395664,
+     "variance_share_pca_lowest": 0.015003899133940549,
+     "variance_share_random": 0.9338825463416767,
+     "within_group_diff_share": 0.8634530839527006,
+     "between_group_diff_share": 0.5984552954180489
+    }
+   },
+   "untrained": {
+    "threshold": 6.705420575760317e-05,
+    "radius": 1.840946820052509,
+    "random_broken_at_radius": 0.9137500000000001,
+    "shared": {
+     "1": {
+      "learned": {
+       "frac_flat": 0.913125,
+       "median_kl": 1.7637252367981148e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0,
+       "median_kl": 0.016454463468045584
+      },
+      "random": {
+       "frac_flat": 0.0,
+       "median_kl": 0.0015793130212051719
+      },
+      "variance_share_learned": 0.006056095569340308,
+      "variance_share_pca_lowest": 1.8692981871259794e-24,
+      "variance_share_random": 0.0045472046363815195
+     },
+     "2": {
+      "learned": {
+       "frac_flat": 0.73875,
+       "median_kl": 3.0326972677284427e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0175,
+       "median_kl": 0.008615902642096114
+      },
+      "random": {
+       "frac_flat": 0.10625,
+       "median_kl": 0.0004521911269983088
+      },
+      "variance_share_learned": 0.020638450128933197,
+      "variance_share_pca_lowest": 1.874404021444208e-24,
+      "variance_share_random": 0.008041024029172766
+     },
+     "4": {
+      "learned": {
+       "frac_flat": 0.669375,
+       "median_kl": 3.4245794777645845e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0440625,
+       "median_kl": 0.004069363339291945
+      },
+      "random": {
+       "frac_flat": 0.1015625,
+       "median_kl": 0.0012547210488589918
+      },
+      "variance_share_learned": 0.014449907591147108,
+      "variance_share_pca_lowest": 1.9320143796483305e-24,
+      "variance_share_random": 0.05785690548281307
+     },
+     "8": {
+      "learned": {
+       "frac_flat": 0.5915625,
+       "median_kl": 4.637559890888253e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.063125,
+       "median_kl": 0.0030728581759448537
+      },
+      "random": {
+       "frac_flat": 0.12687500000000002,
+       "median_kl": 0.0010345255195469815
+      },
+      "variance_share_learned": 0.11827288478448081,
+      "variance_share_pca_lowest": 1.9939781987853072e-24,
+      "variance_share_random": 0.13383317387036398
+     },
+     "16": {
+      "learned": {
+       "frac_flat": 0.5228125,
+       "median_kl": 6.112168971368626e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0746875,
+       "median_kl": 0.0023293430064988026
+      },
+      "random": {
+       "frac_flat": 0.0853125,
+       "median_kl": 0.0013205982109527684
+      },
+      "variance_share_learned": 0.23963576932760602,
+      "variance_share_pca_lowest": 1.4631598725763585e-07,
+      "variance_share_random": 0.40325461601905616
+     },
+     "32": {
+      "learned": {
+       "frac_flat": 0.4365625,
+       "median_kl": 9.140057682167696e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0803125,
+       "median_kl": 0.001735084438343304
+      },
+      "random": {
+       "frac_flat": 0.09593750000000001,
+       "median_kl": 0.0016285047391188003
+      },
+      "variance_share_learned": 0.4851369664655571,
+      "variance_share_pca_lowest": 1.620269395131778e-05,
+      "variance_share_random": 0.37822742900566136
+     },
+     "48": {
+      "learned": {
+       "frac_flat": 0.33718750000000003,
+       "median_kl": 0.00015036299335984427
+      },
+      "pca_lowest": {
+       "frac_flat": 0.088125,
+       "median_kl": 0.001564123783553386
+      },
+      "random": {
+       "frac_flat": 0.0859375,
+       "median_kl": 0.0015598368558137673
+      },
+      "variance_share_learned": 0.7079436913508622,
+      "variance_share_pca_lowest": 0.0004736897843735077,
+      "variance_share_random": 0.8469863630335
+     },
+     "60": {
+      "learned": {
+       "frac_flat": 0.18281250000000002,
+       "median_kl": 0.00037921108706007525
+      },
+      "pca_lowest": {
+       "frac_flat": 0.08125,
+       "median_kl": 0.001639223389067971
+      },
+      "random": {
+       "frac_flat": 0.08687500000000001,
+       "median_kl": 0.0016275997694731644
+      },
+      "variance_share_learned": 0.895555532305173,
+      "variance_share_pca_lowest": 0.029763842391574105,
+      "variance_share_random": 0.9420668710703574
+     }
+    }
+   }
+  },
+  "p1_t14": {
+   "threshold": 0.0002273402303141807,
+   "radius": 165.86993813277869,
+   "between_group_distance": 16.586993813277868,
+   "random_broken_at_radius": 0.95125,
+   "n_groups": 5,
+   "ones_direction_max_kl": 5.79215087509019e-15,
+   "shared": {
+    "1": {
+     "learned": {
+      "frac_flat": 0.100625,
+      "median_kl": 0.005547014470554605
+     },
+     "pca_lowest": {
+      "frac_flat": 0.005,
+      "median_kl": 0.061204604479134256
+     },
+     "random": {
+      "frac_flat": 0.151875,
+      "median_kl": 0.02109041272663882
+     },
+     "variance_share_learned": 0.007668822324420437,
+     "variance_share_pca_lowest": 9.106783100819717e-13,
+     "variance_share_random": 0.0022693141521410057,
+     "within_group_diff_share": 0.002473765446404047,
+     "between_group_diff_share": 0.007675605291197227
+    },
+    "2": {
+     "learned": {
+      "frac_flat": 0.13375,
+      "median_kl": 0.013314464976895993
+     },
+     "pca_lowest": {
+      "frac_flat": 0.02375,
+      "median_kl": 0.09701447853514433
+     },
+     "random": {
+      "frac_flat": 0.014375,
+      "median_kl": 0.12295121642738949
+     },
+     "variance_share_learned": 0.022836717403614853,
+     "variance_share_pca_lowest": 6.021114138425802e-12,
+     "variance_share_random": 0.014120680150511726,
+     "within_group_diff_share": 0.024391206732272974,
+     "between_group_diff_share": 0.02281790187859451
+    },
+    "4": {
+     "learned": {
+      "frac_flat": 0.19843750000000002,
+      "median_kl": 0.004329424440630718
+     },
+     "pca_lowest": {
+      "frac_flat": 0.029687500000000002,
+      "median_kl": 0.11975428034516047
+     },
+     "random": {
+      "frac_flat": 0.051250000000000004,
+      "median_kl": 0.04696470514155046
+     },
+     "variance_share_learned": 0.0691388684881738,
+     "variance_share_pca_lowest": 2.8105005585537897e-11,
+     "variance_share_random": 0.021535235472154576,
+     "within_group_diff_share": 0.07477017369580673,
+     "between_group_diff_share": 0.06907978405058697
+    },
+    "8": {
+     "learned": {
+      "frac_flat": 0.2015625,
+      "median_kl": 0.002976837474193618
+     },
+     "pca_lowest": {
+      "frac_flat": 0.044375,
+      "median_kl": 0.09068570864117823
+     },
+     "random": {
+      "frac_flat": 0.0925,
+      "median_kl": 0.05157823222142507
+     },
+     "variance_share_learned": 0.1313410784192071,
+     "variance_share_pca_lowest": 3.275787788680624e-10,
+     "variance_share_random": 0.09199861455251697,
+     "within_group_diff_share": 0.11936421718611422,
+     "between_group_diff_share": 0.13128079904246792
+    },
+    "16": {
+     "learned": {
+      "frac_flat": 0.2028125,
+      "median_kl": 0.005611018401506827
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0503125,
+      "median_kl": 0.06671871230095
+     },
+     "random": {
+      "frac_flat": 0.048125,
+      "median_kl": 0.0846078824312255
+     },
+     "variance_share_learned": 0.3072386567199304,
+     "variance_share_pca_lowest": 6.658910725063206e-09,
+     "variance_share_random": 0.3601971350592853,
+     "within_group_diff_share": 0.3158057339971161,
+     "between_group_diff_share": 0.3070138118537515
+    },
+    "32": {
+     "learned": {
+      "frac_flat": 0.184375,
+      "median_kl": 0.006296844575260065
+     },
+     "pca_lowest": {
+      "frac_flat": 0.058125,
+      "median_kl": 0.07316550700185923
+     },
+     "random": {
+      "frac_flat": 0.0478125,
+      "median_kl": 0.07913829799267641
+     },
+     "variance_share_learned": 0.4530147090019114,
+     "variance_share_pca_lowest": 3.9667853401360605e-07,
+     "variance_share_random": 0.30568791533127554,
+     "within_group_diff_share": 0.5495577512684761,
+     "between_group_diff_share": 0.4524908881189207
+    },
+    "48": {
+     "learned": {
+      "frac_flat": 0.1475,
+      "median_kl": 0.013684999116727062
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0603125,
+      "median_kl": 0.07729228434441009
+     },
+     "random": {
+      "frac_flat": 0.0559375,
+      "median_kl": 0.0851648279147639
+     },
+     "variance_share_learned": 0.7680383630488731,
+     "variance_share_pca_lowest": 1.579576258811903e-05,
+     "variance_share_random": 0.8614341648234514,
+     "within_group_diff_share": 0.7789916292861577,
+     "between_group_diff_share": 0.7675002704322598
+    },
+    "60": {
+     "learned": {
+      "frac_flat": 0.094375,
+      "median_kl": 0.03937217772286722
+     },
+     "pca_lowest": {
+      "frac_flat": 0.053125,
+      "median_kl": 0.08816282053373747
+     },
+     "random": {
+      "frac_flat": 0.0603125,
+      "median_kl": 0.08940441151222267
+     },
+     "variance_share_learned": 0.9458294447182128,
+     "variance_share_pca_lowest": 0.0032782257644502757,
+     "variance_share_random": 0.9843309515312575,
+     "within_group_diff_share": 0.9279267804419913,
+     "between_group_diff_share": 0.9452387282499195
+    }
+   },
+   "untrained": {
+    "threshold": 0.0002273402303141807,
+    "radius": 2.8992655714858215,
+    "random_broken_at_radius": 0.9,
+    "shared": {
+     "1": {
+      "learned": {
+       "frac_flat": 0.729375,
+       "median_kl": 8.890619941629829e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.2415625,
+       "median_kl": 0.0015697236962255914
+      },
+      "random": {
+       "frac_flat": 0.054375,
+       "median_kl": 0.009660009731843958
+      },
+      "variance_share_learned": 0.0019061340041894507,
+      "variance_share_pca_lowest": 4.3861491592766924e-07,
+      "variance_share_random": 0.012501556475419843
+     },
+     "2": {
+      "learned": {
+       "frac_flat": 0.7734375,
+       "median_kl": 8.029122410404491e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.15031250000000002,
+       "median_kl": 0.0021935284236250137
+      },
+      "random": {
+       "frac_flat": 0.13343750000000001,
+       "median_kl": 0.005297498089666994
+      },
+      "variance_share_learned": 0.01962333333697461,
+      "variance_share_pca_lowest": 1.1265365914562147e-06,
+      "variance_share_random": 0.004890864223733681
+     },
+     "4": {
+      "learned": {
+       "frac_flat": 0.5446875,
+       "median_kl": 0.00018859876076766924
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1728125,
+       "median_kl": 0.0030876273233235406
+      },
+      "random": {
+       "frac_flat": 0.1396875,
+       "median_kl": 0.003574228841224089
+      },
+      "variance_share_learned": 0.10187320587223256,
+      "variance_share_pca_lowest": 2.6772154434877205e-06,
+      "variance_share_random": 0.023778644998263116
+     },
+     "8": {
+      "learned": {
+       "frac_flat": 0.509375,
+       "median_kl": 0.0002163166577900926
+      },
+      "pca_lowest": {
+       "frac_flat": 0.114375,
+       "median_kl": 0.004029199494825747
+      },
+      "random": {
+       "frac_flat": 0.12687500000000002,
+       "median_kl": 0.0038724165742339833
+      },
+      "variance_share_learned": 0.12687921397114915,
+      "variance_share_pca_lowest": 7.395029737415013e-06,
+      "variance_share_random": 0.08450643525292896
+     },
+     "16": {
+      "learned": {
+       "frac_flat": 0.4315625,
+       "median_kl": 0.0003064142588670247
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1296875,
+       "median_kl": 0.004314091871896141
+      },
+      "random": {
+       "frac_flat": 0.0915625,
+       "median_kl": 0.006098479098310676
+      },
+      "variance_share_learned": 0.263819527368122,
+      "variance_share_pca_lowest": 2.8118297103734082e-05,
+      "variance_share_random": 0.39157528328327534
+     },
+     "32": {
+      "learned": {
+       "frac_flat": 0.330625,
+       "median_kl": 0.0005503427837078093
+      },
+      "pca_lowest": {
+       "frac_flat": 0.099375,
+       "median_kl": 0.00533875275415701
+      },
+      "random": {
+       "frac_flat": 0.109375,
+       "median_kl": 0.005848960133331121
+      },
+      "variance_share_learned": 0.4882524825860333,
+      "variance_share_pca_lowest": 0.00023492245833291704,
+      "variance_share_random": 0.3484895677381264
+     },
+     "48": {
+      "learned": {
+       "frac_flat": 0.249375,
+       "median_kl": 0.0008913998189714872
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1040625,
+       "median_kl": 0.005810833260321904
+      },
+      "random": {
+       "frac_flat": 0.105,
+       "median_kl": 0.006026779068888814
+      },
+      "variance_share_learned": 0.7143694627411502,
+      "variance_share_pca_lowest": 0.001915173022347768,
+      "variance_share_random": 0.9121892330550089
+     },
+     "60": {
+      "learned": {
+       "frac_flat": 0.1859375,
+       "median_kl": 0.0015342604627986665
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1065625,
+       "median_kl": 0.00568403295061835
+      },
+      "random": {
+       "frac_flat": 0.09468750000000001,
+       "median_kl": 0.006288586151751041
+      },
+      "variance_share_learned": 0.9265079666199816,
+      "variance_share_pca_lowest": 0.04081400659724042,
+      "variance_share_random": 0.9674092450140503
+     }
+    }
+   }
+  },
+  "p2_t6": {
+   "threshold": 0.0002976744360722858,
+   "radius": 78.2101094593992,
+   "between_group_distance": 36.301917074238084,
+   "random_broken_at_radius": 0.93,
+   "n_groups": 12,
+   "ones_direction_max_kl": 3.0454826758300523e-15,
+   "per_context": {
+    "1": {
+     "frac_flat": 0.7216796875,
+     "median_kl": 5.704781166769161e-06
+    },
+    "2": {
+     "frac_flat": 0.6669921875,
+     "median_kl": 7.127487344685528e-05
+    },
+    "4": {
+     "frac_flat": 0.4619140625,
+     "median_kl": 0.0003730945887773802
+    },
+    "8": {
+     "frac_flat": 0.28515625,
+     "median_kl": 0.001193398285151217
+    },
+    "16": {
+     "frac_flat": 0.19921875,
+     "median_kl": 0.003381560195454443
+    },
+    "32": {
+     "frac_flat": 0.0986328125,
+     "median_kl": 0.015038224245215323
+    },
+    "48": {
+     "frac_flat": 0.0771484375,
+     "median_kl": 0.039233459508272894
+    },
+    "60": {
+     "frac_flat": 0.046875,
+     "median_kl": 0.06463455381068087
+    }
+   },
+   "shared": {
+    "1": {
+     "learned": {
+      "frac_flat": 0.0603125,
+      "median_kl": 0.009640191791921836
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0709375,
+      "median_kl": 0.05579159192944502
+     },
+     "random": {
+      "frac_flat": 0.10187500000000001,
+      "median_kl": 0.031728282326945176
+     },
+     "variance_share_learned": 0.005084851144860697,
+     "variance_share_pca_lowest": 3.9705695501574436e-23,
+     "variance_share_random": 0.013972162263474032,
+     "within_group_diff_share": 0.008595317884882584,
+     "between_group_diff_share": 0.005045871327867757
+    },
+    "2": {
+     "learned": {
+      "frac_flat": 0.0753125,
+      "median_kl": 0.020572223539978785
+     },
+     "pca_lowest": {
+      "frac_flat": 0.1128125,
+      "median_kl": 0.03322202048689317
+     },
+     "random": {
+      "frac_flat": 0.041875,
+      "median_kl": 0.08264195929462007
+     },
+     "variance_share_learned": 0.02215873565460629,
+     "variance_share_pca_lowest": 8.09474234291854e-23,
+     "variance_share_random": 0.03469844252063754,
+     "within_group_diff_share": 0.057478685702816265,
+     "between_group_diff_share": 0.02189785611272715
+    },
+    "4": {
+     "learned": {
+      "frac_flat": 0.104375,
+      "median_kl": 0.017715921481728673
+     },
+     "pca_lowest": {
+      "frac_flat": 0.1321875,
+      "median_kl": 0.02981999800579986
+     },
+     "random": {
+      "frac_flat": 0.0678125,
+      "median_kl": 0.05622072059983012
+     },
+     "variance_share_learned": 0.03786446356402353,
+     "variance_share_pca_lowest": 1.669438838481046e-22,
+     "variance_share_random": 0.0993153107800103,
+     "within_group_diff_share": 0.10002080569831855,
+     "between_group_diff_share": 0.03741048482355745
+    },
+    "8": {
+     "learned": {
+      "frac_flat": 0.116875,
+      "median_kl": 0.014825434335634227
+     },
+     "pca_lowest": {
+      "frac_flat": 0.090625,
+      "median_kl": 0.042288884135545705
+     },
+     "random": {
+      "frac_flat": 0.0715625,
+      "median_kl": 0.0747544896753404
+     },
+     "variance_share_learned": 0.08370348517551801,
+     "variance_share_pca_lowest": 5.289503323077712e-20,
+     "variance_share_random": 0.14416767216389664,
+     "within_group_diff_share": 0.1009647257766805,
+     "between_group_diff_share": 0.08324604141549496
+    },
+    "16": {
+     "learned": {
+      "frac_flat": 0.1146875,
+      "median_kl": 0.016610480098238234
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0678125,
+      "median_kl": 0.05315586411383469
+     },
+     "random": {
+      "frac_flat": 0.08375,
+      "median_kl": 0.058351266856901424
+     },
+     "variance_share_learned": 0.17398058562610652,
+     "variance_share_pca_lowest": 1.2853079782778156e-11,
+     "variance_share_random": 0.23241237717248117,
+     "within_group_diff_share": 0.23824206749962762,
+     "between_group_diff_share": 0.17290075162808044
+    },
+    "32": {
+     "learned": {
+      "frac_flat": 0.1128125,
+      "median_kl": 0.01906248962876824
+     },
+     "pca_lowest": {
+      "frac_flat": 0.07968750000000001,
+      "median_kl": 0.048857562026791646
+     },
+     "random": {
+      "frac_flat": 0.07843750000000001,
+      "median_kl": 0.058688434376979015
+     },
+     "variance_share_learned": 0.36000704571395997,
+     "variance_share_pca_lowest": 5.317104457010515e-08,
+     "variance_share_random": 0.4817867694070846,
+     "within_group_diff_share": 0.4551481882160973,
+     "between_group_diff_share": 0.35794458071707025
+    },
+    "48": {
+     "learned": {
+      "frac_flat": 0.095,
+      "median_kl": 0.026923647952243335
+     },
+     "pca_lowest": {
+      "frac_flat": 0.07,
+      "median_kl": 0.04978239794306186
+     },
+     "random": {
+      "frac_flat": 0.0671875,
+      "median_kl": 0.06585780086369966
+     },
+     "variance_share_learned": 0.5932549098562433,
+     "variance_share_pca_lowest": 5.638673407952583e-06,
+     "variance_share_random": 0.7630796751308498,
+     "within_group_diff_share": 0.6970253926314849,
+     "between_group_diff_share": 0.5900971543689155
+    },
+    "60": {
+     "learned": {
+      "frac_flat": 0.0725,
+      "median_kl": 0.04920707543942962
+     },
+     "pca_lowest": {
+      "frac_flat": 0.065625,
+      "median_kl": 0.05943700205150653
+     },
+     "random": {
+      "frac_flat": 0.0671875,
+      "median_kl": 0.06816187948485064
+     },
+     "variance_share_learned": 0.8344273221885702,
+     "variance_share_pca_lowest": 0.2568740935689327,
+     "variance_share_random": 0.9509791962035061,
+     "within_group_diff_share": 0.9571793055551338,
+     "between_group_diff_share": 0.8300913392136942
+    }
+   },
+   "untrained": {
+    "threshold": 0.0002976744360722858,
+    "radius": 4.768262716457298,
+    "random_broken_at_radius": 0.9,
+    "shared": {
+     "1": {
+      "learned": {
+       "frac_flat": 0.9909375,
+       "median_kl": 1.7348003766421186e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1478125,
+       "median_kl": 0.002600612956064504
+      },
+      "random": {
+       "frac_flat": 0.1653125,
+       "median_kl": 0.018268440798816933
+      },
+      "variance_share_learned": 0.0036608921650676004,
+      "variance_share_pca_lowest": 1.6550629982078895e-27,
+      "variance_share_random": 0.012543644957211535
+     },
+     "2": {
+      "learned": {
+       "frac_flat": 0.9271875,
+       "median_kl": 4.615825286650305e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.08125,
+       "median_kl": 0.009871416585723984
+      },
+      "random": {
+       "frac_flat": 0.091875,
+       "median_kl": 0.005074895838813133
+      },
+      "variance_share_learned": 0.018005664238803995,
+      "variance_share_pca_lowest": 7.09331648540745e-27,
+      "variance_share_random": 0.012888887639316162
+     },
+     "4": {
+      "learned": {
+       "frac_flat": 0.8409375,
+       "median_kl": 6.963083282367742e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.09,
+       "median_kl": 0.011253141624823722
+      },
+      "random": {
+       "frac_flat": 0.09625,
+       "median_kl": 0.009386758076304902
+      },
+      "variance_share_learned": 0.04342046788972068,
+      "variance_share_pca_lowest": 1.0129818661666746e-26,
+      "variance_share_random": 0.04998718328784324
+     },
+     "8": {
+      "learned": {
+       "frac_flat": 0.755625,
+       "median_kl": 0.00010444021354052545
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0934375,
+       "median_kl": 0.008032867750705296
+      },
+      "random": {
+       "frac_flat": 0.1325,
+       "median_kl": 0.004834915626699684
+      },
+      "variance_share_learned": 0.1094209416429031,
+      "variance_share_pca_lowest": 1.9383754955905848e-26,
+      "variance_share_random": 0.16655046804626314
+     },
+     "16": {
+      "learned": {
+       "frac_flat": 0.6215625,
+       "median_kl": 0.00017804443844886622
+      },
+      "pca_lowest": {
+       "frac_flat": 0.10187500000000001,
+       "median_kl": 0.006641514737341734
+      },
+      "random": {
+       "frac_flat": 0.105,
+       "median_kl": 0.0072367374250993585
+      },
+      "variance_share_learned": 0.2209020014436164,
+      "variance_share_pca_lowest": 9.735157763976167e-07,
+      "variance_share_random": 0.26295274826274884
+     },
+     "32": {
+      "learned": {
+       "frac_flat": 0.41375,
+       "median_kl": 0.0004398668149955256
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0990625,
+       "median_kl": 0.008577751236540879
+      },
+      "random": {
+       "frac_flat": 0.1015625,
+       "median_kl": 0.007851569116768417
+      },
+      "variance_share_learned": 0.4446207630066531,
+      "variance_share_pca_lowest": 5.779385914613546e-05,
+      "variance_share_random": 0.4363843158214958
+     },
+     "48": {
+      "learned": {
+       "frac_flat": 0.1934375,
+       "median_kl": 0.0019167115465567042
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1021875,
+       "median_kl": 0.00741973664363571
+      },
+      "random": {
+       "frac_flat": 0.1071875,
+       "median_kl": 0.007529960676782521
+      },
+      "variance_share_learned": 0.5977490810704812,
+      "variance_share_pca_lowest": 0.001146453613404245,
+      "variance_share_random": 0.7536485971360511
+     },
+     "60": {
+      "learned": {
+       "frac_flat": 0.10625,
+       "median_kl": 0.005542641846513475
+      },
+      "pca_lowest": {
+       "frac_flat": 0.10187500000000001,
+       "median_kl": 0.008033470896594046
+      },
+      "random": {
+       "frac_flat": 0.1003125,
+       "median_kl": 0.0080070452067874
+      },
+      "variance_share_learned": 0.7987549921198618,
+      "variance_share_pca_lowest": 0.058472847906802156,
+      "variance_share_random": 0.9634620250353944
+     }
+    }
+   }
+  },
+  "p2_t14": {
+   "threshold": 0.0002638550748397096,
+   "radius": 183.38786336681557,
+   "between_group_distance": 39.50971745682949,
+   "random_broken_at_radius": 0.94125,
+   "n_groups": 8,
+   "ones_direction_max_kl": 3.6541774394463784e-15,
+   "shared": {
+    "1": {
+     "learned": {
+      "frac_flat": 0.1715625,
+      "median_kl": 0.00650067419308812
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0,
+      "median_kl": 0.329088616571973
+     },
+     "random": {
+      "frac_flat": 0.0884375,
+      "median_kl": 0.025786854620625188
+     },
+     "variance_share_learned": 0.01674648502096331,
+     "variance_share_pca_lowest": 7.622634768161697e-10,
+     "variance_share_random": 0.01827012792296107,
+     "within_group_diff_share": 0.007894850067907596,
+     "between_group_diff_share": 0.01675691920705786
+    },
+    "2": {
+     "learned": {
+      "frac_flat": 0.0828125,
+      "median_kl": 0.020189313818802068
+     },
+     "pca_lowest": {
+      "frac_flat": 0.01125,
+      "median_kl": 0.20160886027345293
+     },
+     "random": {
+      "frac_flat": 0.0203125,
+      "median_kl": 0.08673978798669496
+     },
+     "variance_share_learned": 0.042771421703024746,
+     "variance_share_pca_lowest": 2.068361401956583e-09,
+     "variance_share_random": 0.0348846727058069,
+     "within_group_diff_share": 0.05724761196597341,
+     "between_group_diff_share": 0.042650747384604004
+    },
+    "4": {
+     "learned": {
+      "frac_flat": 0.141875,
+      "median_kl": 0.00803824343955116
+     },
+     "pca_lowest": {
+      "frac_flat": 0.033125,
+      "median_kl": 0.10498534467932413
+     },
+     "random": {
+      "frac_flat": 0.0546875,
+      "median_kl": 0.048137065643404114
+     },
+     "variance_share_learned": 0.07658136012220737,
+     "variance_share_pca_lowest": 5.32712920280679e-09,
+     "variance_share_random": 0.0541332432176701,
+     "within_group_diff_share": 0.100122698054486,
+     "between_group_diff_share": 0.07637474231409712
+    },
+    "8": {
+     "learned": {
+      "frac_flat": 0.1315625,
+      "median_kl": 0.007743515157771719
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0471875,
+      "median_kl": 0.09586982017554851
+     },
+     "random": {
+      "frac_flat": 0.0925,
+      "median_kl": 0.04508895194139356
+     },
+     "variance_share_learned": 0.0854444255508981,
+     "variance_share_pca_lowest": 1.9221194633618794e-08,
+     "variance_share_random": 0.11313637914502828,
+     "within_group_diff_share": 0.14034315018890944,
+     "between_group_diff_share": 0.0851001443673193
+    },
+    "16": {
+     "learned": {
+      "frac_flat": 0.184375,
+      "median_kl": 0.005755325597378021
+     },
+     "pca_lowest": {
+      "frac_flat": 0.046875,
+      "median_kl": 0.09013427716481108
+     },
+     "random": {
+      "frac_flat": 0.050937500000000004,
+      "median_kl": 0.07319444349326529
+     },
+     "variance_share_learned": 0.19669238902573746,
+     "variance_share_pca_lowest": 1.0366321711495603e-07,
+     "variance_share_random": 0.23050053664679815,
+     "within_group_diff_share": 0.17256312213410813,
+     "between_group_diff_share": 0.1964977753671784
+    },
+    "32": {
+     "learned": {
+      "frac_flat": 0.13468750000000002,
+      "median_kl": 0.00840172873062308
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0521875,
+      "median_kl": 0.07298266345160523
+     },
+     "random": {
+      "frac_flat": 0.0584375,
+      "median_kl": 0.06896288749217011
+     },
+     "variance_share_learned": 0.4597245537643806,
+     "variance_share_pca_lowest": 1.3002804121702112e-06,
+     "variance_share_random": 0.4704844625086579,
+     "within_group_diff_share": 0.5192764520041869,
+     "between_group_diff_share": 0.45880905469574806
+    },
+    "48": {
+     "learned": {
+      "frac_flat": 0.12,
+      "median_kl": 0.015459511882199059
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0503125,
+      "median_kl": 0.07416408302454158
+     },
+     "random": {
+      "frac_flat": 0.055625,
+      "median_kl": 0.0709621826739904
+     },
+     "variance_share_learned": 0.7243598847782066,
+     "variance_share_pca_lowest": 2.7527250946064068e-05,
+     "variance_share_random": 0.7928809457692961,
+     "within_group_diff_share": 0.7506564315005426,
+     "between_group_diff_share": 0.723185690284375
+    },
+    "60": {
+     "learned": {
+      "frac_flat": 0.0709375,
+      "median_kl": 0.045361253174370925
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0540625,
+      "median_kl": 0.08158782022464409
+     },
+     "random": {
+      "frac_flat": 0.05375,
+      "median_kl": 0.07937888539769167
+     },
+     "variance_share_learned": 0.9575132874493189,
+     "variance_share_pca_lowest": 0.28871943396638694,
+     "variance_share_random": 0.9640103057624202,
+     "within_group_diff_share": 0.975424673258416,
+     "between_group_diff_share": 0.956028087017622
+    }
+   },
+   "untrained": {
+    "threshold": 0.0002638550748397096,
+    "radius": 5.578270829050861,
+    "random_broken_at_radius": 0.93625,
+    "shared": {
+     "1": {
+      "learned": {
+       "frac_flat": 0.6615625,
+       "median_kl": 0.00016212968981263627
+      },
+      "pca_lowest": {
+       "frac_flat": 0.02625,
+       "median_kl": 0.041756979435322916
+      },
+      "random": {
+       "frac_flat": 0.0803125,
+       "median_kl": 0.037319281758408804
+      },
+      "variance_share_learned": 0.033018564541567264,
+      "variance_share_pca_lowest": 1.7864474447169703e-06,
+      "variance_share_random": 0.002690788883622053
+     },
+     "2": {
+      "learned": {
+       "frac_flat": 0.7290625000000001,
+       "median_kl": 0.00010941283924349298
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0559375,
+       "median_kl": 0.02315761254077784
+      },
+      "random": {
+       "frac_flat": 0.050625,
+       "median_kl": 0.03013251314060343
+      },
+      "variance_share_learned": 0.006104125327178542,
+      "variance_share_pca_lowest": 3.844762473418531e-06,
+      "variance_share_random": 0.010446395265001206
+     },
+     "4": {
+      "learned": {
+       "frac_flat": 0.5746875,
+       "median_kl": 0.00018439751339144501
+      },
+      "pca_lowest": {
+       "frac_flat": 0.04125,
+       "median_kl": 0.03768267509457543
+      },
+      "random": {
+       "frac_flat": 0.089375,
+       "median_kl": 0.009073147246330439
+      },
+      "variance_share_learned": 0.032813559468681114,
+      "variance_share_pca_lowest": 8.684388474399989e-06,
+      "variance_share_random": 0.047095912044667274
+     },
+     "8": {
+      "learned": {
+       "frac_flat": 0.458125,
+       "median_kl": 0.00032844326362698253
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0565625,
+       "median_kl": 0.027848106671495697
+      },
+      "random": {
+       "frac_flat": 0.1003125,
+       "median_kl": 0.006024563072981465
+      },
+      "variance_share_learned": 0.18648125187965117,
+      "variance_share_pca_lowest": 2.2666911719042506e-05,
+      "variance_share_random": 0.09304835436813355
+     },
+     "16": {
+      "learned": {
+       "frac_flat": 0.3128125,
+       "median_kl": 0.0007215283256398752
+      },
+      "pca_lowest": {
+       "frac_flat": 0.060625,
+       "median_kl": 0.020361462524411462
+      },
+      "random": {
+       "frac_flat": 0.07,
+       "median_kl": 0.016811236534827176
+      },
+      "variance_share_learned": 0.24281700561057368,
+      "variance_share_pca_lowest": 7.900853050132843e-05,
+      "variance_share_random": 0.3607452271433832
+     },
+     "32": {
+      "learned": {
+       "frac_flat": 0.2071875,
+       "median_kl": 0.0017198561829604303
+      },
+      "pca_lowest": {
+       "frac_flat": 0.07062500000000001,
+       "median_kl": 0.014980423592545006
+      },
+      "random": {
+       "frac_flat": 0.074375,
+       "median_kl": 0.015167784391490607
+      },
+      "variance_share_learned": 0.4194201690942174,
+      "variance_share_pca_lowest": 0.00048815736796058395,
+      "variance_share_random": 0.3879369076945823
+     },
+     "48": {
+      "learned": {
+       "frac_flat": 0.1590625,
+       "median_kl": 0.0026249824710524623
+      },
+      "pca_lowest": {
+       "frac_flat": 0.07625,
+       "median_kl": 0.01482080295955783
+      },
+      "random": {
+       "frac_flat": 0.0684375,
+       "median_kl": 0.01428905335299581
+      },
+      "variance_share_learned": 0.7314653726697373,
+      "variance_share_pca_lowest": 0.003536092686446288,
+      "variance_share_random": 0.7620288853599173
+     },
+     "60": {
+      "learned": {
+       "frac_flat": 0.1384375,
+       "median_kl": 0.003880824048364734
+      },
+      "pca_lowest": {
+       "frac_flat": 0.08125,
+       "median_kl": 0.013090973090187086
+      },
+      "random": {
+       "frac_flat": 0.0690625,
+       "median_kl": 0.015225951829599058
+      },
+      "variance_share_learned": 0.9157249412301858,
+      "variance_share_pca_lowest": 0.05144236846856711,
+      "variance_share_random": 0.952442557513257
+     }
+    }
+   }
+  },
+  "p3_t6": {
+   "threshold": 0.00025161488594407753,
+   "radius": 151.22144193312894,
+   "between_group_distance": 70.1907756279635,
+   "random_broken_at_radius": 0.95375,
+   "n_groups": 16,
+   "ones_direction_max_kl": 1.516688662158351e-15,
+   "per_context": {
+    "1": {
+     "frac_flat": 0.7490234375,
+     "median_kl": 1.0432606232451816e-05
+    },
+    "2": {
+     "frac_flat": 0.63671875,
+     "median_kl": 7.57345702543091e-05
+    },
+    "4": {
+     "frac_flat": 0.4326171875,
+     "median_kl": 0.00037743643321662065
+    },
+    "8": {
+     "frac_flat": 0.2978515625,
+     "median_kl": 0.0008721942154270995
+    },
+    "16": {
+     "frac_flat": 0.2265625,
+     "median_kl": 0.0017280977766474387
+    },
+    "32": {
+     "frac_flat": 0.1416015625,
+     "median_kl": 0.004973258820611844
+    },
+    "48": {
+     "frac_flat": 0.119140625,
+     "median_kl": 0.016787869418243118
+    },
+    "60": {
+     "frac_flat": 0.0791015625,
+     "median_kl": 0.025996380137965944
+    }
+   },
+   "shared": {
+    "1": {
+     "learned": {
+      "frac_flat": 0.134375,
+      "median_kl": 0.005765305418873334
+     },
+     "pca_lowest": {
+      "frac_flat": 0.07062500000000001,
+      "median_kl": 0.009489988753256573
+     },
+     "random": {
+      "frac_flat": 0.13625,
+      "median_kl": 0.010604609828052232
+     },
+     "variance_share_learned": 0.0025724288105028427,
+     "variance_share_pca_lowest": 2.1092117944074322e-24,
+     "variance_share_random": 0.014359594796668963,
+     "within_group_diff_share": 0.00900206404277108,
+     "between_group_diff_share": 0.0025107297305466242
+    },
+    "2": {
+     "learned": {
+      "frac_flat": 0.0709375,
+      "median_kl": 0.007321296238128404
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0696875,
+      "median_kl": 0.010346808358386646
+     },
+     "random": {
+      "frac_flat": 0.0275,
+      "median_kl": 0.04987878129052636
+     },
+     "variance_share_learned": 0.005846971087664131,
+     "variance_share_pca_lowest": 2.1487260871473123e-24,
+     "variance_share_random": 0.027901891792226602,
+     "within_group_diff_share": 0.011726481924921081,
+     "between_group_diff_share": 0.005781650749859901
+    },
+    "4": {
+     "learned": {
+      "frac_flat": 0.143125,
+      "median_kl": 0.006026581342383604
+     },
+     "pca_lowest": {
+      "frac_flat": 0.074375,
+      "median_kl": 0.0107667719218415
+     },
+     "random": {
+      "frac_flat": 0.0446875,
+      "median_kl": 0.032568752522591504
+     },
+     "variance_share_learned": 0.019252347898044128,
+     "variance_share_pca_lowest": 5.216426282543732e-24,
+     "variance_share_random": 0.03103405176523762,
+     "within_group_diff_share": 0.038380927648886974,
+     "between_group_diff_share": 0.01903924788024589
+    },
+    "8": {
+     "learned": {
+      "frac_flat": 0.1040625,
+      "median_kl": 0.01104257663673107
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0653125,
+      "median_kl": 0.0174341448469348
+     },
+     "random": {
+      "frac_flat": 0.059687500000000004,
+      "median_kl": 0.03932096666813285
+     },
+     "variance_share_learned": 0.050109160402298326,
+     "variance_share_pca_lowest": 1.2829505077236141e-23,
+     "variance_share_random": 0.16573732938316801,
+     "within_group_diff_share": 0.07983467059161828,
+     "between_group_diff_share": 0.04972658238028734
+    },
+    "16": {
+     "learned": {
+      "frac_flat": 0.1215625,
+      "median_kl": 0.00883580270342451
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0625,
+      "median_kl": 0.01686370846940674
+     },
+     "random": {
+      "frac_flat": 0.045625,
+      "median_kl": 0.0386453967548204
+     },
+     "variance_share_learned": 0.08986960194641813,
+     "variance_share_pca_lowest": 1.8827359038069177e-08,
+     "variance_share_random": 0.262345487336563,
+     "within_group_diff_share": 0.15133607358528897,
+     "between_group_diff_share": 0.08911351569350814
+    },
+    "32": {
+     "learned": {
+      "frac_flat": 0.114375,
+      "median_kl": 0.0101416963980797
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0578125,
+      "median_kl": 0.022641456743372576
+     },
+     "random": {
+      "frac_flat": 0.043750000000000004,
+      "median_kl": 0.041836087376964495
+     },
+     "variance_share_learned": 0.18688487840842932,
+     "variance_share_pca_lowest": 0.00022409563599254173,
+     "variance_share_random": 0.4603678987097669,
+     "within_group_diff_share": 0.30776283039182123,
+     "between_group_diff_share": 0.18537213287762594
+    },
+    "48": {
+     "learned": {
+      "frac_flat": 0.10875,
+      "median_kl": 0.014382361822126502
+     },
+     "pca_lowest": {
+      "frac_flat": 0.04875,
+      "median_kl": 0.02799706198298428
+     },
+     "random": {
+      "frac_flat": 0.0384375,
+      "median_kl": 0.04276490006441366
+     },
+     "variance_share_learned": 0.4091512050309795,
+     "variance_share_pca_lowest": 0.01080021452294231,
+     "variance_share_random": 0.7533634650254843,
+     "within_group_diff_share": 0.5803204427438912,
+     "between_group_diff_share": 0.4066410310495528
+    },
+    "60": {
+     "learned": {
+      "frac_flat": 0.074375,
+      "median_kl": 0.02134964828268547
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0384375,
+      "median_kl": 0.03665230808548556
+     },
+     "random": {
+      "frac_flat": 0.043437500000000004,
+      "median_kl": 0.04256190141359428
+     },
+     "variance_share_learned": 0.7151424980817552,
+     "variance_share_pca_lowest": 0.40761667769450666,
+     "variance_share_random": 0.9656130746850006,
+     "within_group_diff_share": 0.9135162679978654,
+     "between_group_diff_share": 0.7116196789517529
+    }
+   },
+   "untrained": {
+    "threshold": 0.00025161488594407753,
+    "radius": 5.6380964660031285,
+    "random_broken_at_radius": 0.9087500000000001,
+    "shared": {
+     "1": {
+      "learned": {
+       "frac_flat": 0.9812500000000001,
+       "median_kl": 2.1105065826677654e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.3696875,
+       "median_kl": 0.0005025726935686276
+      },
+      "random": {
+       "frac_flat": 0.0,
+       "median_kl": 0.022735167246373908
+      },
+      "variance_share_learned": 0.0021558579810159184,
+      "variance_share_pca_lowest": 2.145600166731362e-27,
+      "variance_share_random": 0.015509470926681045
+     },
+     "2": {
+      "learned": {
+       "frac_flat": 0.926875,
+       "median_kl": 2.4122111142811003e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.21125,
+       "median_kl": 0.0036072756934494715
+      },
+      "random": {
+       "frac_flat": 0.0578125,
+       "median_kl": 0.014503961621718436
+      },
+      "variance_share_learned": 0.024809629353783363,
+      "variance_share_pca_lowest": 3.0182584825446826e-27,
+      "variance_share_random": 0.009481120782557938
+     },
+     "4": {
+      "learned": {
+       "frac_flat": 0.8390625,
+       "median_kl": 5.3462830916820806e-05
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1665625,
+       "median_kl": 0.0040453573821565905
+      },
+      "random": {
+       "frac_flat": 0.0928125,
+       "median_kl": 0.00819073002401929
+      },
+      "variance_share_learned": 0.015545410235475024,
+      "variance_share_pca_lowest": 3.782421438203318e-27,
+      "variance_share_random": 0.07033512206001002
+     },
+     "8": {
+      "learned": {
+       "frac_flat": 0.655625,
+       "median_kl": 0.0001229882973585372
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1375,
+       "median_kl": 0.004264065122739122
+      },
+      "random": {
+       "frac_flat": 0.128125,
+       "median_kl": 0.00479981695751331
+      },
+      "variance_share_learned": 0.07736677494472753,
+      "variance_share_pca_lowest": 5.880000010982758e-27,
+      "variance_share_random": 0.09684990973231943
+     },
+     "16": {
+      "learned": {
+       "frac_flat": 0.409375,
+       "median_kl": 0.0003875501759652263
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1275,
+       "median_kl": 0.004739095775489928
+      },
+      "random": {
+       "frac_flat": 0.1046875,
+       "median_kl": 0.006803705085200444
+      },
+      "variance_share_learned": 0.15108109008640963,
+      "variance_share_pca_lowest": 1.1703238144127602e-06,
+      "variance_share_random": 0.3399117790537657
+     },
+     "32": {
+      "learned": {
+       "frac_flat": 0.1953125,
+       "median_kl": 0.0015142697739523748
+      },
+      "pca_lowest": {
+       "frac_flat": 0.116875,
+       "median_kl": 0.006037224681807445
+      },
+      "random": {
+       "frac_flat": 0.1075,
+       "median_kl": 0.006871599765243638
+      },
+      "variance_share_learned": 0.3405691521071284,
+      "variance_share_pca_lowest": 0.00010338084677925174,
+      "variance_share_random": 0.3907730011272141
+     },
+     "48": {
+      "learned": {
+       "frac_flat": 0.15375,
+       "median_kl": 0.0029094436734154877
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0990625,
+       "median_kl": 0.006597888307067333
+      },
+      "random": {
+       "frac_flat": 0.1003125,
+       "median_kl": 0.007099088600581158
+      },
+      "variance_share_learned": 0.43403355295687696,
+      "variance_share_pca_lowest": 0.0015107726777237567,
+      "variance_share_random": 0.7350559860040616
+     },
+     "60": {
+      "learned": {
+       "frac_flat": 0.1240625,
+       "median_kl": 0.004201761388239224
+      },
+      "pca_lowest": {
+       "frac_flat": 0.11,
+       "median_kl": 0.006871940930982062
+      },
+      "random": {
+       "frac_flat": 0.100625,
+       "median_kl": 0.006451465714876051
+      },
+      "variance_share_learned": 0.6446181408877818,
+      "variance_share_pca_lowest": 0.06279113942565533,
+      "variance_share_random": 0.937174119694337
+     }
+    }
+   }
+  },
+  "p3_t14": {
+   "threshold": 0.00036579459850969494,
+   "radius": 195.53609096739441,
+   "between_group_distance": 61.833941222284345,
+   "random_broken_at_radius": 0.9275,
+   "n_groups": 18,
+   "ones_direction_max_kl": 1.737979775028518e-15,
+   "shared": {
+    "1": {
+     "learned": {
+      "frac_flat": 0.07906250000000001,
+      "median_kl": 0.010416431440515517
+     },
+     "pca_lowest": {
+      "frac_flat": 0.29531250000000003,
+      "median_kl": 0.0014671585655110612
+     },
+     "random": {
+      "frac_flat": 0.059375000000000004,
+      "median_kl": 0.011283908820688665
+     },
+     "variance_share_learned": 0.03231213954613485,
+     "variance_share_pca_lowest": 2.2382277703277773e-07,
+     "variance_share_random": 0.012014584829732763,
+     "within_group_diff_share": 0.018479251849749967,
+     "between_group_diff_share": 0.03301045234190762
+    },
+    "2": {
+     "learned": {
+      "frac_flat": 0.19125,
+      "median_kl": 0.004657789352563578
+     },
+     "pca_lowest": {
+      "frac_flat": 0.38,
+      "median_kl": 0.001087686650371119
+     },
+     "random": {
+      "frac_flat": 0.034375,
+      "median_kl": 0.035685171448301606
+     },
+     "variance_share_learned": 0.017735462979597997,
+     "variance_share_pca_lowest": 5.536723253902166e-07,
+     "variance_share_random": 0.04562127128430111,
+     "within_group_diff_share": 0.017043837075920696,
+     "between_group_diff_share": 0.017710390700259378
+    },
+    "4": {
+     "learned": {
+      "frac_flat": 0.2221875,
+      "median_kl": 0.004823826234430895
+     },
+     "pca_lowest": {
+      "frac_flat": 0.2003125,
+      "median_kl": 0.003471695990505147
+     },
+     "random": {
+      "frac_flat": 0.0809375,
+      "median_kl": 0.026615724168794666
+     },
+     "variance_share_learned": 0.04410400670552914,
+     "variance_share_pca_lowest": 1.296529290646645e-06,
+     "variance_share_random": 0.04332046244335937,
+     "within_group_diff_share": 0.05686219919661556,
+     "between_group_diff_share": 0.043184921167289336
+    },
+    "8": {
+     "learned": {
+      "frac_flat": 0.2690625,
+      "median_kl": 0.0040665861934288255
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0978125,
+      "median_kl": 0.01315294629459518
+     },
+     "random": {
+      "frac_flat": 0.1196875,
+      "median_kl": 0.02168069716266216
+     },
+     "variance_share_learned": 0.09008291152774958,
+     "variance_share_pca_lowest": 4.292811549737851e-06,
+     "variance_share_random": 0.1329327655715794,
+     "within_group_diff_share": 0.07901678400816566,
+     "between_group_diff_share": 0.09040251992870368
+    },
+    "16": {
+     "learned": {
+      "frac_flat": 0.2415625,
+      "median_kl": 0.003202487933115526
+     },
+     "pca_lowest": {
+      "frac_flat": 0.10187500000000001,
+      "median_kl": 0.015455243925974624
+     },
+     "random": {
+      "frac_flat": 0.079375,
+      "median_kl": 0.036179700761819936
+     },
+     "variance_share_learned": 0.19060843460853555,
+     "variance_share_pca_lowest": 1.7940707219020763e-05,
+     "variance_share_random": 0.22456256607549674,
+     "within_group_diff_share": 0.15258143092336768,
+     "between_group_diff_share": 0.19214935714089196
+    },
+    "32": {
+     "learned": {
+      "frac_flat": 0.3053125,
+      "median_kl": 0.0019052851926601305
+     },
+     "pca_lowest": {
+      "frac_flat": 0.07187500000000001,
+      "median_kl": 0.030374288855609513
+     },
+     "random": {
+      "frac_flat": 0.07843750000000001,
+      "median_kl": 0.03941213225590261
+     },
+     "variance_share_learned": 0.37815737946341005,
+     "variance_share_pca_lowest": 0.00023697449084043686,
+     "variance_share_random": 0.435226518374675,
+     "within_group_diff_share": 0.2984705983129814,
+     "between_group_diff_share": 0.3814655778422125
+    },
+    "48": {
+     "learned": {
+      "frac_flat": 0.233125,
+      "median_kl": 0.00373653422898608
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0734375,
+      "median_kl": 0.031187648186672468
+     },
+     "random": {
+      "frac_flat": 0.07375,
+      "median_kl": 0.04045853070019331
+     },
+     "variance_share_learned": 0.5534411097357299,
+     "variance_share_pca_lowest": 0.007379348776887724,
+     "variance_share_random": 0.8035521654871802,
+     "within_group_diff_share": 0.5427080083176254,
+     "between_group_diff_share": 0.5520167164239221
+    },
+    "60": {
+     "learned": {
+      "frac_flat": 0.2065625,
+      "median_kl": 0.007826626948836731
+     },
+     "pca_lowest": {
+      "frac_flat": 0.0740625,
+      "median_kl": 0.0359334869950143
+     },
+     "random": {
+      "frac_flat": 0.07062500000000001,
+      "median_kl": 0.044121692264632445
+     },
+     "variance_share_learned": 0.8685550364091048,
+     "variance_share_pca_lowest": 0.28231729064969496,
+     "variance_share_random": 0.9125185011491164,
+     "within_group_diff_share": 0.9073152812567876,
+     "between_group_diff_share": 0.8630292592267489
+    }
+   },
+   "untrained": {
+    "threshold": 0.00036579459850969494,
+    "radius": 6.496264881456682,
+    "random_broken_at_radius": 0.9275,
+    "shared": {
+     "1": {
+      "learned": {
+       "frac_flat": 0.774375,
+       "median_kl": 0.00015415813914503983
+      },
+      "pca_lowest": {
+       "frac_flat": 0.2328125,
+       "median_kl": 0.009988004155132499
+      },
+      "random": {
+       "frac_flat": 0.100625,
+       "median_kl": 0.03803607024776292
+      },
+      "variance_share_learned": 0.014443766255077997,
+      "variance_share_pca_lowest": 2.8351709953008508e-06,
+      "variance_share_random": 0.003380978090956564
+     },
+     "2": {
+      "learned": {
+       "frac_flat": 0.7228125,
+       "median_kl": 0.00012623808024816129
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1553125,
+       "median_kl": 0.007353487362492611
+      },
+      "random": {
+       "frac_flat": 0.0528125,
+       "median_kl": 0.041015845870352244
+      },
+      "variance_share_learned": 0.011112669845632035,
+      "variance_share_pca_lowest": 5.7955432262279905e-06,
+      "variance_share_random": 0.016334246219305463
+     },
+     "4": {
+      "learned": {
+       "frac_flat": 0.5971875,
+       "median_kl": 0.00024264858882038984
+      },
+      "pca_lowest": {
+       "frac_flat": 0.125,
+       "median_kl": 0.00607800371242553
+      },
+      "random": {
+       "frac_flat": 0.11031250000000001,
+       "median_kl": 0.011672580193253873
+      },
+      "variance_share_learned": 0.04242334721682892,
+      "variance_share_pca_lowest": 1.3588029491080813e-05,
+      "variance_share_random": 0.07825669143450967
+     },
+     "8": {
+      "learned": {
+       "frac_flat": 0.5015625,
+       "median_kl": 0.0003615671265512054
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1128125,
+       "median_kl": 0.006142028421037636
+      },
+      "random": {
+       "frac_flat": 0.12375,
+       "median_kl": 0.007033533781778109
+      },
+      "variance_share_learned": 0.08696800543182218,
+      "variance_share_pca_lowest": 3.7759440881779654e-05,
+      "variance_share_random": 0.09944550018174825
+     },
+     "16": {
+      "learned": {
+       "frac_flat": 0.393125,
+       "median_kl": 0.0006303462573235908
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1,
+       "median_kl": 0.009433343094215105
+      },
+      "random": {
+       "frac_flat": 0.08875,
+       "median_kl": 0.015778678996104925
+      },
+      "variance_share_learned": 0.224422940079296,
+      "variance_share_pca_lowest": 0.00012407334180818274,
+      "variance_share_random": 0.4235106234929852
+     },
+     "32": {
+      "learned": {
+       "frac_flat": 0.284375,
+       "median_kl": 0.0012564077560603265
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0925,
+       "median_kl": 0.01086314220545375
+      },
+      "random": {
+       "frac_flat": 0.09468750000000001,
+       "median_kl": 0.013135457446922433
+      },
+      "variance_share_learned": 0.5105311724297914,
+      "variance_share_pca_lowest": 0.000739115407931921,
+      "variance_share_random": 0.37574200459172685
+     },
+     "48": {
+      "learned": {
+       "frac_flat": 0.2021875,
+       "median_kl": 0.0025177702145831125
+      },
+      "pca_lowest": {
+       "frac_flat": 0.10250000000000001,
+       "median_kl": 0.0113903409813913
+      },
+      "random": {
+       "frac_flat": 0.0890625,
+       "median_kl": 0.014067849017204578
+      },
+      "variance_share_learned": 0.6328515838123941,
+      "variance_share_pca_lowest": 0.0048529891192173715,
+      "variance_share_random": 0.8118820179719957
+     },
+     "60": {
+      "learned": {
+       "frac_flat": 0.133125,
+       "median_kl": 0.004566646560643602
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1028125,
+       "median_kl": 0.012554600081485276
+      },
+      "random": {
+       "frac_flat": 0.0884375,
+       "median_kl": 0.012106086025457641
+      },
+      "variance_share_learned": 0.8434129364555113,
+      "variance_share_pca_lowest": 0.06536360396627029,
+      "variance_share_random": 0.9364323002241768
+     }
+    }
+   }
+  },
+  "p4_t6": {
+   "threshold": 0.00018701489604646196,
+   "radius": 209.39997061901374,
+   "between_group_distance": 1426.6253924370424,
+   "random_broken_at_radius": 0.9025,
+   "n_groups": 9,
+   "ones_direction_max_kl": 5.287680127501717e-15,
+   "per_context": {
+    "1": {
+     "frac_flat": 0.6875,
+     "median_kl": 7.244767834819858e-05
+    },
+    "2": {
+     "frac_flat": 0.5927734375,
+     "median_kl": 6.717430963837107e-05
+    },
+    "4": {
+     "frac_flat": 0.6162109375,
+     "median_kl": 4.053231858485492e-05
+    },
+    "8": {
+     "frac_flat": 0.6064453125,
+     "median_kl": 4.008659501409696e-05
+    },
+    "16": {
+     "frac_flat": 0.59765625,
+     "median_kl": 5.524385058609804e-05
+    },
+    "32": {
+     "frac_flat": 0.595703125,
+     "median_kl": 5.799639107875558e-05
+    },
+    "48": {
+     "frac_flat": 0.59375,
+     "median_kl": 4.776893804297414e-05
+    },
+    "60": {
+     "frac_flat": 0.5830078125,
+     "median_kl": 6.115221570906007e-05
+    }
+   },
+   "shared": {
+    "1": {
+     "learned": {
+      "frac_flat": 0.56375,
+      "median_kl": 4.625213518612715e-05
+     },
+     "pca_lowest": {
+      "frac_flat": 0.55,
+      "median_kl": 8.548999352319883e-05
+     },
+     "random": {
+      "frac_flat": 0.380625,
+      "median_kl": 0.00033321130357879744
+     },
+     "variance_share_learned": 0.0011088921393206678,
+     "variance_share_pca_lowest": 7.556573148543045e-23,
+     "variance_share_random": 0.009364108898576008,
+     "within_group_diff_share": 0.0017391899674189463,
+     "between_group_diff_share": 0.001100621224833867
+    },
+    "2": {
+     "learned": {
+      "frac_flat": 0.5625,
+      "median_kl": 6.25243157378599e-05
+     },
+     "pca_lowest": {
+      "frac_flat": 0.561875,
+      "median_kl": 7.803646460396475e-05
+     },
+     "random": {
+      "frac_flat": 0.06625,
+      "median_kl": 0.004233258166619472
+     },
+     "variance_share_learned": 0.031490015332451694,
+     "variance_share_pca_lowest": 7.639076278121976e-23,
+     "variance_share_random": 0.05870573782175596,
+     "within_group_diff_share": 0.02894113325157409,
+     "between_group_diff_share": 0.031491778841739405
+    },
+    "4": {
+     "learned": {
+      "frac_flat": 0.5765625,
+      "median_kl": 7.236337584714484e-05
+     },
+     "pca_lowest": {
+      "frac_flat": 0.5690625,
+      "median_kl": 8.101682972974558e-05
+     },
+     "random": {
+      "frac_flat": 0.1771875,
+      "median_kl": 0.0013475349431677011
+     },
+     "variance_share_learned": 0.1160173532409985,
+     "variance_share_pca_lowest": 8.270220414583481e-23,
+     "variance_share_random": 0.012004294713016376,
+     "within_group_diff_share": 0.10437312342742779,
+     "between_group_diff_share": 0.1160499295540482
+    },
+    "8": {
+     "learned": {
+      "frac_flat": 0.5603125,
+      "median_kl": 7.546116572724939e-05
+     },
+     "pca_lowest": {
+      "frac_flat": 0.5750000000000001,
+      "median_kl": 8.275290832397437e-05
+     },
+     "random": {
+      "frac_flat": 0.244375,
+      "median_kl": 0.0009738599198183713
+     },
+     "variance_share_learned": 0.43688302615560237,
+     "variance_share_pca_lowest": 8.412671785524969e-23,
+     "variance_share_random": 0.0915460441151153,
+     "within_group_diff_share": 0.39387590262895994,
+     "between_group_diff_share": 0.4369959627934205
+    },
+    "16": {
+     "learned": {
+      "frac_flat": 0.569375,
+      "median_kl": 6.539825512056827e-05
+     },
+     "pca_lowest": {
+      "frac_flat": 0.5671875000000001,
+      "median_kl": 8.40884125582371e-05
+     },
+     "random": {
+      "frac_flat": 0.10875,
+      "median_kl": 0.0028791513763045825
+     },
+     "variance_share_learned": 0.7115527150679648,
+     "variance_share_pca_lowest": 3.6052672064859904e-09,
+     "variance_share_random": 0.1978375060054442,
+     "within_group_diff_share": 0.6624536251199892,
+     "between_group_diff_share": 0.7114942437329284
+    },
+    "32": {
+     "learned": {
+      "frac_flat": 0.5659375,
+      "median_kl": 7.089569584016377e-05
+     },
+     "pca_lowest": {
+      "frac_flat": 0.5725,
+      "median_kl": 8.208925509772119e-05
+     },
+     "random": {
+      "frac_flat": 0.10625,
+      "median_kl": 0.0035469662555122905
+     },
+     "variance_share_learned": 0.8407113402829506,
+     "variance_share_pca_lowest": 2.1580339591480325e-06,
+     "variance_share_random": 0.584613098021386,
+     "within_group_diff_share": 0.7998979744881866,
+     "between_group_diff_share": 0.8404432268701519
+    },
+    "48": {
+     "learned": {
+      "frac_flat": 0.550625,
+      "median_kl": 8.862302512543507e-05
+     },
+     "pca_lowest": {
+      "frac_flat": 0.5715625,
+      "median_kl": 7.517864601009738e-05
+     },
+     "random": {
+      "frac_flat": 0.106875,
+      "median_kl": 0.0033843741424273584
+     },
+     "variance_share_learned": 0.8948019271324335,
+     "variance_share_pca_lowest": 5.7962923401433034e-05,
+     "variance_share_random": 0.5031982749812481,
+     "within_group_diff_share": 0.875256645419077,
+     "between_group_diff_share": 0.8942400443340317
+    },
+    "60": {
+     "learned": {
+      "frac_flat": 0.553125,
+      "median_kl": 8.508230124744734e-05
+     },
+     "pca_lowest": {
+      "frac_flat": 0.154375,
+      "median_kl": 0.0018211924933789249
+     },
+     "random": {
+      "frac_flat": 0.10187500000000001,
+      "median_kl": 0.0038023139837645575
+     },
+     "variance_share_learned": 0.9925893709724645,
+     "variance_share_pca_lowest": 0.0045930565665405826,
+     "variance_share_random": 0.9351268424398443,
+     "within_group_diff_share": 0.9944562156620648,
+     "between_group_diff_share": 0.9916935668496308
+    }
+   },
+   "untrained": {
+    "threshold": 0.00018701489604646196,
+    "radius": 6.003061420155752,
+    "random_broken_at_radius": 0.91,
+    "shared": {
+     "1": {
+      "learned": {
+       "frac_flat": 0.1634375,
+       "median_kl": 0.0004682348582683328
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0671875,
+       "median_kl": 0.0006588201998738979
+      },
+      "random": {
+       "frac_flat": 0.0,
+       "median_kl": 0.021071960699598158
+      },
+      "variance_share_learned": 0.01219380979500907,
+      "variance_share_pca_lowest": 1.390638411640557e-27,
+      "variance_share_random": 0.011487891157245871
+     },
+     "2": {
+      "learned": {
+       "frac_flat": 0.1965625,
+       "median_kl": 0.0010413671227840395
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0709375,
+       "median_kl": 0.006329354660850189
+      },
+      "random": {
+       "frac_flat": 0.068125,
+       "median_kl": 0.008519373853636186
+      },
+      "variance_share_learned": 0.021833604364277018,
+      "variance_share_pca_lowest": 2.6472836783330316e-27,
+      "variance_share_random": 0.018289314489190873
+     },
+     "4": {
+      "learned": {
+       "frac_flat": 0.146875,
+       "median_kl": 0.0010141865424879454
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1325,
+       "median_kl": 0.0030558248289957284
+      },
+      "random": {
+       "frac_flat": 0.1146875,
+       "median_kl": 0.004221900403318837
+      },
+      "variance_share_learned": 0.038354947597975406,
+      "variance_share_pca_lowest": 3.974489918398372e-27,
+      "variance_share_random": 0.038453066607239676
+     },
+     "8": {
+      "learned": {
+       "frac_flat": 0.1903125,
+       "median_kl": 0.0010968668503944165
+      },
+      "pca_lowest": {
+       "frac_flat": 0.105625,
+       "median_kl": 0.00443999133886324
+      },
+      "random": {
+       "frac_flat": 0.1171875,
+       "median_kl": 0.00436445559482879
+      },
+      "variance_share_learned": 0.03923271784971941,
+      "variance_share_pca_lowest": 2.4217270120009413e-26,
+      "variance_share_random": 0.10542911541616493
+     },
+     "16": {
+      "learned": {
+       "frac_flat": 0.21,
+       "median_kl": 0.0010842379805436637
+      },
+      "pca_lowest": {
+       "frac_flat": 0.12625,
+       "median_kl": 0.0033645986516488563
+      },
+      "random": {
+       "frac_flat": 0.110625,
+       "median_kl": 0.004097654017835246
+      },
+      "variance_share_learned": 0.075098566778639,
+      "variance_share_pca_lowest": 2.1759215037046534e-06,
+      "variance_share_random": 0.2961606331539273
+     },
+     "32": {
+      "learned": {
+       "frac_flat": 0.1978125,
+       "median_kl": 0.0010937563258670777
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1278125,
+       "median_kl": 0.0030778577433885138
+      },
+      "random": {
+       "frac_flat": 0.12687500000000002,
+       "median_kl": 0.0036458722945638157
+      },
+      "variance_share_learned": 0.171278512285121,
+      "variance_share_pca_lowest": 0.00012316703100929434,
+      "variance_share_random": 0.39018805111190136
+     },
+     "48": {
+      "learned": {
+       "frac_flat": 0.18625,
+       "median_kl": 0.0012129708654875886
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1159375,
+       "median_kl": 0.004085329172403465
+      },
+      "random": {
+       "frac_flat": 0.11625,
+       "median_kl": 0.004287871658629389
+      },
+      "variance_share_learned": 0.27822288297316505,
+      "variance_share_pca_lowest": 0.0018065647665266563,
+      "variance_share_random": 0.7287822313836538
+     },
+     "60": {
+      "learned": {
+       "frac_flat": 0.18875,
+       "median_kl": 0.0013197810340518767
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1171875,
+       "median_kl": 0.004184196335303855
+      },
+      "random": {
+       "frac_flat": 0.11031250000000001,
+       "median_kl": 0.004166412338637789
+      },
+      "variance_share_learned": 0.8568631193797971,
+      "variance_share_pca_lowest": 0.08633314039321094,
+      "variance_share_random": 0.9512236221454873
+     }
+    }
+   }
+  },
+  "p4_t14": {
+   "threshold": 0.0005541093158432568,
+   "radius": 713.310672343872,
+   "between_group_distance": 2255.686403912713,
+   "random_broken_at_radius": 0.93125,
+   "n_groups": 6,
+   "ones_direction_max_kl": 8.310948940773552e-15,
+   "shared": {
+    "1": {
+     "learned": {
+      "frac_flat": 0.63625,
+      "median_kl": 7.695466258207662e-06
+     },
+     "pca_lowest": {
+      "frac_flat": 0.63,
+      "median_kl": 2.6006427000307367e-06
+     },
+     "random": {
+      "frac_flat": 0.0065625,
+      "median_kl": 0.001592321999682296
+     },
+     "variance_share_learned": 0.5589937256112799,
+     "variance_share_pca_lowest": 3.0906596938809786e-09,
+     "variance_share_random": 0.009602324441658242,
+     "within_group_diff_share": 0.5128182711852322,
+     "between_group_diff_share": 0.562856187568676
+    },
+    "2": {
+     "learned": {
+      "frac_flat": 0.6303125,
+      "median_kl": 5.4006742399269336e-05
+     },
+     "pca_lowest": {
+      "frac_flat": 0.63,
+      "median_kl": 9.623557435270956e-06
+     },
+     "random": {
+      "frac_flat": 0.0546875,
+      "median_kl": 0.030497500233060054
+     },
+     "variance_share_learned": 0.6551896284212525,
+     "variance_share_pca_lowest": 7.52623615216339e-09,
+     "variance_share_random": 0.059900508854437526,
+     "within_group_diff_share": 0.6017210392319878,
+     "between_group_diff_share": 0.6596592356721971
+    },
+    "4": {
+     "learned": {
+      "frac_flat": 0.6165625,
+      "median_kl": 0.0002088914671791245
+     },
+     "pca_lowest": {
+      "frac_flat": 0.63,
+      "median_kl": 1.1239162448639303e-05
+     },
+     "random": {
+      "frac_flat": 0.1340625,
+      "median_kl": 0.009646993210533153
+     },
+     "variance_share_learned": 0.6733533290765071,
+     "variance_share_pca_lowest": 1.932470178354772e-08,
+     "variance_share_random": 0.0121544394648653,
+     "within_group_diff_share": 0.6184941908327531,
+     "between_group_diff_share": 0.677938763262091
+    },
+    "8": {
+     "learned": {
+      "frac_flat": 0.5878125,
+      "median_kl": 0.0002778089171984726
+     },
+     "pca_lowest": {
+      "frac_flat": 0.63,
+      "median_kl": 2.052843192775107e-05
+     },
+     "random": {
+      "frac_flat": 0.19125,
+      "median_kl": 0.005659321586589258
+     },
+     "variance_share_learned": 0.8068472378149134,
+     "variance_share_pca_lowest": 5.4863681855952775e-08,
+     "variance_share_random": 0.09591395370321161,
+     "within_group_diff_share": 0.7684285002654055,
+     "between_group_diff_share": 0.8099351984020655
+    },
+    "16": {
+     "learned": {
+      "frac_flat": 0.628125,
+      "median_kl": 0.00011015797407734791
+     },
+     "pca_lowest": {
+      "frac_flat": 0.63,
+      "median_kl": 1.1857903862545673e-05
+     },
+     "random": {
+      "frac_flat": 0.0740625,
+      "median_kl": 0.023161117022374583
+     },
+     "variance_share_learned": 0.7806948932240985,
+     "variance_share_pca_lowest": 2.3434670039873448e-07,
+     "variance_share_random": 0.19697562274217334,
+     "within_group_diff_share": 0.7527023895221254,
+     "between_group_diff_share": 0.7828739286188069
+    },
+    "32": {
+     "learned": {
+      "frac_flat": 0.6125,
+      "median_kl": 0.00019087379653817682
+     },
+     "pca_lowest": {
+      "frac_flat": 0.63,
+      "median_kl": 1.440910949419014e-05
+     },
+     "random": {
+      "frac_flat": 0.075,
+      "median_kl": 0.025198415610000163
+     },
+     "variance_share_learned": 0.8702471005178126,
+     "variance_share_pca_lowest": 2.1553855560208813e-06,
+     "variance_share_random": 0.5818827739868743,
+     "within_group_diff_share": 0.8449442077014528,
+     "between_group_diff_share": 0.8721562531530591
+    },
+    "48": {
+     "learned": {
+      "frac_flat": 0.630625,
+      "median_kl": 4.765115511467556e-05
+     },
+     "pca_lowest": {
+      "frac_flat": 0.63,
+      "median_kl": 1.9860176434744435e-05
+     },
+     "random": {
+      "frac_flat": 0.07906250000000001,
+      "median_kl": 0.026482461938293955
+     },
+     "variance_share_learned": 0.9279254814766361,
+     "variance_share_pca_lowest": 2.893518115794704e-05,
+     "variance_share_random": 0.4963727140970165,
+     "within_group_diff_share": 0.9216742707120372,
+     "between_group_diff_share": 0.9281349880447052
+    },
+    "60": {
+     "learned": {
+      "frac_flat": 0.6153125,
+      "median_kl": 0.00017880293403757866
+     },
+     "pca_lowest": {
+      "frac_flat": 0.466875,
+      "median_kl": 0.0006814184994823093
+     },
+     "random": {
+      "frac_flat": 0.0653125,
+      "median_kl": 0.02708547746294307
+     },
+     "variance_share_learned": 0.9903430328326999,
+     "variance_share_pca_lowest": 0.001330547622722646,
+     "variance_share_random": 0.9312033690481837,
+     "within_group_diff_share": 0.9926236271997015,
+     "between_group_diff_share": 0.9897779425159764
+    }
+   },
+   "untrained": {
+    "threshold": 0.0005541093158432568,
+    "radius": 10.375773254725024,
+    "random_broken_at_radius": 0.9175,
+    "shared": {
+     "1": {
+      "learned": {
+       "frac_flat": 0.074375,
+       "median_kl": 0.002273768492557088
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1603125,
+       "median_kl": 0.008038682366954437
+      },
+      "random": {
+       "frac_flat": 0.0053125,
+       "median_kl": 0.09725196786545823
+      },
+      "variance_share_learned": 0.02781874820529077,
+      "variance_share_pca_lowest": 3.1686405395926696e-06,
+      "variance_share_random": 0.009082266071792999
+     },
+     "2": {
+      "learned": {
+       "frac_flat": 0.225,
+       "median_kl": 0.0026811827402675355
+      },
+      "pca_lowest": {
+       "frac_flat": 0.074375,
+       "median_kl": 0.010867212300082835
+      },
+      "random": {
+       "frac_flat": 0.0815625,
+       "median_kl": 0.03854845970091985
+      },
+      "variance_share_learned": 0.02603866996340202,
+      "variance_share_pca_lowest": 7.939018482115427e-06,
+      "variance_share_random": 0.03336914362043581
+     },
+     "4": {
+      "learned": {
+       "frac_flat": 0.2134375,
+       "median_kl": 0.0037336859004356987
+      },
+      "pca_lowest": {
+       "frac_flat": 0.0934375,
+       "median_kl": 0.021403039593798953
+      },
+      "random": {
+       "frac_flat": 0.0996875,
+       "median_kl": 0.017085539683004386
+      },
+      "variance_share_learned": 0.03617777312159663,
+      "variance_share_pca_lowest": 1.9563616378403903e-05,
+      "variance_share_random": 0.05270678467289038
+     },
+     "8": {
+      "learned": {
+       "frac_flat": 0.20375000000000001,
+       "median_kl": 0.003945648338199711
+      },
+      "pca_lowest": {
+       "frac_flat": 0.105625,
+       "median_kl": 0.016115899774095548
+      },
+      "random": {
+       "frac_flat": 0.1021875,
+       "median_kl": 0.016906953261655477
+      },
+      "variance_share_learned": 0.04726594826422384,
+      "variance_share_pca_lowest": 5.225047310418062e-05,
+      "variance_share_random": 0.10762338764533227
+     },
+     "16": {
+      "learned": {
+       "frac_flat": 0.1775,
+       "median_kl": 0.004514368188952081
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1059375,
+       "median_kl": 0.013266180833143626
+      },
+      "random": {
+       "frac_flat": 0.098125,
+       "median_kl": 0.018169726758615175
+      },
+      "variance_share_learned": 0.1628659313637744,
+      "variance_share_pca_lowest": 0.00017877824882296033,
+      "variance_share_random": 0.439078416187484
+     },
+     "32": {
+      "learned": {
+       "frac_flat": 0.1590625,
+       "median_kl": 0.004756295849935671
+      },
+      "pca_lowest": {
+       "frac_flat": 0.105625,
+       "median_kl": 0.013356631307058234
+      },
+      "random": {
+       "frac_flat": 0.096875,
+       "median_kl": 0.015931923365381306
+      },
+      "variance_share_learned": 0.2926570625140637,
+      "variance_share_pca_lowest": 0.0009461235028275324,
+      "variance_share_random": 0.36016411847956853
+     },
+     "48": {
+      "learned": {
+       "frac_flat": 0.1528125,
+       "median_kl": 0.005637818417884993
+      },
+      "pca_lowest": {
+       "frac_flat": 0.1075,
+       "median_kl": 0.016060806614193075
+      },
+      "random": {
+       "frac_flat": 0.1034375,
+       "median_kl": 0.017773203620582448
+      },
+      "variance_share_learned": 0.5924112469516736,
+      "variance_share_pca_lowest": 0.005997943953876865,
+      "variance_share_random": 0.8211277495677178
+     },
+     "60": {
+      "learned": {
+       "frac_flat": 0.139375,
+       "median_kl": 0.006458256584788505
+      },
+      "pca_lowest": {
+       "frac_flat": 0.106875,
+       "median_kl": 0.01608369996605373
+      },
+      "random": {
+       "frac_flat": 0.096875,
+       "median_kl": 0.01699279083798562
+      },
+      "variance_share_learned": 0.8254140071287979,
+      "variance_share_pca_lowest": 0.07099674127633869,
+      "variance_share_random": 0.942134869548355
+     }
+    }
+   }
+  }
+ }
+}

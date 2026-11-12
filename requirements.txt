@@ -1,0 +1,6 @@
+# Versions used for the results in this repository
+torch==2.7.1
+numpy==1.26.4
+scipy==1.15.3
+scikit-learn==1.7.0
+torch_mist==0.2.17
